@@ -1,0 +1,606 @@
+---
+title: "dashboards"
+subtitle: "ODI Grips Instagram Dashboard Projects"
+author: "Jeffrey Hsu"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-expand: true
+    embed-resources: true
+    theme: cosmo
+    code-fold: true
+execute:
+  echo: true
+  warning: false
+  message: false
+editor: source
+---
+
+# Overview
+
+This assignment includes two dashboard projects built from the ODI Grips Instagram dataset. Project 1 is a static Quarto dashboard designed to summarize overall Instagram performance. Project 2 is an interactive Shiny app designed to let users explore how performance changes across date ranges, content dimensions, and marketing metrics. This report includes the project descriptions, data descriptions, source code, findings, chart interpretations, and deployment links for both projects.
+
+# Project 1
+
+## Project Description
+
+Project 1 is a static dashboard built in Quarto. The goal of this dashboard is to present a clear overview of ODI Grips’ Instagram performance to an audience that may not have prior knowledge of the brand or dataset. The story focuses on overall account performance, monthly engagement trends, media format performance, caption strategy performance, and the top-performing posts.
+
+## Data Description
+
+The dataset contains ODI Grips Instagram post-level performance data. Key variables used in this dashboard include:
+
+- `post_date`: date of the Instagram post
+- `media_type`: type of media used in the post
+- `caption_type`: category of caption strategy used
+- `reach`: number of accounts reached
+- `likes`, `comments`, `shares`, `saves`: engagement metrics
+- `follows`: number of follows generated
+- `engagement_rate`: engagement relative to reach or audience
+
+The dashboard uses these variables to summarize performance across time and content strategy.
+
+````qmd
+## R Code
+
+````r
+---
+title: "ODI Grips Instagram Performance Dashboard"
+subtitle: "Static Dashboard – Project 1"
+format:
+  dashboard:
+    theme: cosmo
+    orientation: rows
+    scrolling: true
+execute:
+  echo: false
+  warning: false
+  message: false
+  freeze: auto
+editor: source
+---
+
+```{r}
+library(tidyverse)
+library(lubridate)
+library(scales)
+library(gt)
+library(janitor)
+
+theme_set(theme_minimal())
+
+odi <- read_csv("@odi_grips Instagram Content Data Final Version - V2.csv") |>
+  clean_names() |>
+  mutate(
+    post_date = as.Date(post_date),
+    year_month = floor_date(post_date, unit = "month"),
+    media_type = as.factor(media_type),
+    caption_type = as.factor(caption_type)
+  )
+
+total_posts <- nrow(odi)
+avg_reach <- mean(odi$reach, na.rm = TRUE)
+avg_engagement <- mean(odi$engagement_rate, na.rm = TRUE)
+total_follows <- sum(odi$follows, na.rm = TRUE)
+```
+
+## Row {height=18%}
+
+### Total Posts
+
+```{r}
+#| content: valuebox
+#| icon: hash
+#| color: primary
+total_posts
+```
+
+### Average Reach
+
+```{r}
+#| content: valuebox
+#| icon: eye
+#| color: success
+comma(round(avg_reach, 0))
+```
+
+### Average Engagement Rate
+
+```{r}
+#| content: valuebox
+#| icon: graph-up
+#| color: warning
+percent(avg_engagement, accuracy = 0.01)
+```
+
+### Total Follows
+
+```{r}
+#| content: valuebox
+#| icon: people
+#| color: info
+comma(total_follows)
+```
+
+## Row {height=42%}
+
+### Engagement Trend Over Time
+
+```{r}
+monthly_perf <- odi |>
+  group_by(year_month) |>
+  summarise(
+    avg_engagement_rate = mean(engagement_rate, na.rm = TRUE),
+    avg_reach = mean(reach, na.rm = TRUE),
+    posts = n(),
+    .groups = "drop"
+  )
+
+ggplot(monthly_perf, aes(x = year_month, y = avg_engagement_rate)) +
+  geom_line(linewidth = 1) +
+  geom_point(size = 2) +
+  scale_y_continuous(labels = percent_format(accuracy = 0.1)) +
+  scale_x_date(date_labels = "%b %Y") +
+  labs(
+    title = "Average Engagement Rate by Month",
+    x = "Month",
+    y = "Average Engagement Rate"
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+### Reach by Media Type
+
+```{r}
+media_summary <- odi |>
+  group_by(media_type) |>
+  summarise(
+    avg_reach = mean(reach, na.rm = TRUE),
+    avg_engagement_rate = mean(engagement_rate, na.rm = TRUE),
+    posts = n(),
+    .groups = "drop"
+  ) |>
+  arrange(desc(avg_reach))
+
+ggplot(media_summary, aes(x = reorder(media_type, avg_reach), y = avg_reach, fill = media_type)) +
+  geom_col(show.legend = FALSE) +
+  coord_flip() +
+  scale_y_continuous(labels = comma_format()) +
+  labs(
+    title = "Average Reach by Media Type",
+    x = "Media Type",
+    y = "Average Reach"
+  )
+```
+
+## Row {height=40%}
+
+### Caption Strategy Performance
+
+```{r}
+caption_summary <- odi |>
+  group_by(caption_type) |>
+  summarise(
+    avg_engagement_rate = mean(engagement_rate, na.rm = TRUE),
+    avg_reach = mean(reach, na.rm = TRUE),
+    posts = n(),
+    .groups = "drop"
+  ) |>
+  arrange(desc(avg_engagement_rate))
+
+ggplot(caption_summary, aes(x = reorder(caption_type, avg_engagement_rate), y = avg_engagement_rate, fill = caption_type)) +
+  geom_col(show.legend = FALSE) +
+  coord_flip() +
+  scale_y_continuous(labels = percent_format(accuracy = 0.1)) +
+  labs(
+    title = "Average Engagement Rate by Caption Type",
+    x = "Caption Type",
+    y = "Average Engagement Rate"
+  )
+```
+
+### Top Performing Posts
+
+```{r}
+top_posts <- odi |>
+  select(
+    post_date,
+    media_type,
+    caption_type,
+    reach,
+    likes,
+    shares,
+    comments,
+    saves,
+    follows,
+    engagement_rate
+  ) |>
+  arrange(desc(engagement_rate)) |>
+  slice_head(n = 10)
+
+top_posts |>
+  mutate(
+    post_date = format(post_date, "%Y-%m-%d"),
+    engagement_rate = percent(engagement_rate, accuracy = 0.01)
+  ) |>
+  gt() |>
+  tab_header(
+    title = "Top 10 Posts by Engagement Rate"
+  ) |>
+  fmt_number(
+    columns = c(reach, likes, shares, comments, saves, follows),
+    decimals = 0
+  )
+```
+
+## Row
+
+### Key Takeaways
+
+ODI Grips’ Instagram performance is uneven across content types, with certain media formats and caption strategies consistently outperforming others. Engagement also changes over time, which suggests content timing and content structure both matter.
+
+The dashboard suggests that ODI should prioritize the formats and caption strategies that already show strong reach and engagement rather than spreading effort evenly across all post types.
+
+# Project 2
+
+## Project Description
+
+Project 2 is an interactive Shiny app built to tell a different story from the static dashboard in Project 1. Instead of only summarizing overall ODI Grips Instagram performance, this app focuses on content strategy exploration. The goal is to help users understand how Instagram performance changes across time, media types, caption types, and different performance metrics.
+
+This project was designed to better demonstrate the value of interactivity. Users can filter the data by date range, choose a performance metric, compare media and caption strategies, and review the top-performing posts under the selected conditions.
+
+## Data Description
+
+The Shiny app uses ODI Grips Instagram post-level performance data. The dataset includes content and performance variables such as:
+
+- `post_date`: the posting date
+- `media_type`: the format of the Instagram post
+- `caption_type`: the category of caption strategy
+- `reach`: number of accounts reached
+- `likes`, `comments`, `shares`, `saves`: engagement-related actions
+- `follows`: number of follows generated
+- `engagement_rate`: overall engagement efficiency
+
+These variables make the app useful for comparing how different content decisions are associated with different marketing outcomes.
+
+## R Code
+
+```r
+library(shiny)
+library(tidyverse)
+library(lubridate)
+library(scales)
+library(plotly)
+library(DT)
+library(janitor)
+
+odi <- read_csv("@odi_grips Instagram Content Data Final Version - V2.csv") |>
+  clean_names() |>
+  mutate(
+    post_date = as.Date(post_date),
+    year_month = floor_date(post_date, unit = "month"),
+    media_type = as.factor(media_type),
+    caption_type = as.factor(caption_type),
+    engagement_rate = ifelse(engagement_rate > 1, engagement_rate / 100, engagement_rate)
+  )
+
+metric_choices <- c(
+  "Reach" = "reach",
+  "Engagement Rate" = "engagement_rate",
+  "Likes" = "likes",
+  "Comments" = "comments",
+  "Shares" = "shares",
+  "Saves" = "saves",
+  "Follows" = "follows"
+)
+
+ui <- fluidPage(
+  titlePanel("ODI Grips Instagram Content Explorer"),
+  
+  sidebarLayout(
+    sidebarPanel(
+      h4("Filters"),
+      
+      dateRangeInput(
+        "date_range",
+        "Select Date Range",
+        start = min(odi$post_date, na.rm = TRUE),
+        end = max(odi$post_date, na.rm = TRUE)
+      ),
+      
+      selectInput(
+        "metric",
+        "Select Performance Metric",
+        choices = metric_choices,
+        selected = "engagement_rate"
+      ),
+      
+      checkboxGroupInput(
+        "media_filter",
+        "Select Media Type",
+        choices = sort(unique(as.character(odi$media_type))),
+        selected = sort(unique(as.character(odi$media_type)))
+      ),
+      
+      checkboxGroupInput(
+        "caption_filter",
+        "Select Caption Type",
+        choices = sort(unique(as.character(odi$caption_type))),
+        selected = sort(unique(as.character(odi$caption_type)))
+      ),
+      
+      sliderInput(
+        "top_n",
+        "Top Posts to Show",
+        min = 5,
+        max = 20,
+        value = 10,
+        step = 1
+      ),
+      
+      hr(),
+      
+      h4("How to Read This App"),
+      p("This interactive dashboard helps users understand which ODI Grips Instagram content strategies perform best."),
+      p("Use the filters to compare performance across time, media type, and caption strategy."),
+      p("The goal is to identify the combinations most associated with stronger reach, engagement, and follower growth.")
+    ),
+    
+    mainPanel(
+      fluidRow(
+        column(
+          width = 4,
+          wellPanel(
+            h4("Posts"),
+            textOutput("total_posts")
+          )
+        ),
+        column(
+          width = 4,
+          wellPanel(
+            h4("Average Selected Metric"),
+            textOutput("avg_metric")
+          )
+        ),
+        column(
+          width = 4,
+          wellPanel(
+            h4("Total Follows"),
+            textOutput("total_follows")
+          )
+        )
+      ),
+      
+      tabsetPanel(
+        tabPanel(
+          "Trend Over Time",
+          br(),
+          plotlyOutput("trend_plot", height = "450px")
+        ),
+        tabPanel(
+          "Media Type Comparison",
+          br(),
+          plotlyOutput("media_plot", height = "450px")
+        ),
+        tabPanel(
+          "Caption Type Comparison",
+          br(),
+          plotlyOutput("caption_plot", height = "450px")
+        ),
+        tabPanel(
+          "Top Posts",
+          br(),
+          DTOutput("top_posts_table")
+        )
+      )
+    )
+  )
+)
+
+server <- function(input, output, session) {
+  
+  filtered_data <- reactive({
+    odi |>
+      filter(
+        post_date >= input$date_range[1],
+        post_date <= input$date_range[2],
+        media_type %in% input$media_filter,
+        caption_type %in% input$caption_filter
+      )
+  })
+  
+  output$total_posts <- renderText({
+    paste("Total Posts:", nrow(filtered_data()))
+  })
+  
+  output$avg_metric <- renderText({
+    avg_val <- mean(filtered_data()[[input$metric]], na.rm = TRUE)
+    
+    if (input$metric == "engagement_rate") {
+      paste("Average:", percent(avg_val, accuracy = 0.01))
+    } else {
+      paste("Average:", comma(round(avg_val, 0)))
+    }
+  })
+  
+  output$total_follows <- renderText({
+    paste("Total Follows:", comma(sum(filtered_data()$follows, na.rm = TRUE)))
+  })
+  
+  output$trend_plot <- renderPlotly({
+    trend_data <- filtered_data() |>
+      group_by(year_month) |>
+      summarise(
+        metric_value = mean(.data[[input$metric]], na.rm = TRUE),
+        posts = n(),
+        .groups = "drop"
+      )
+    
+    p <- ggplot(
+      trend_data,
+      aes(
+        x = year_month,
+        y = metric_value,
+        text = paste(
+          "Month:", year_month,
+          "<br>Posts:", posts,
+          "<br>Value:", round(metric_value, 3)
+        )
+      )
+    ) +
+      geom_point(size = 2, color = "#2C7FB8") +
+      labs(
+        title = paste("Monthly Trend for", names(metric_choices[metric_choices == input$metric])),
+        x = "Month",
+        y = names(metric_choices[metric_choices == input$metric])
+      ) +
+      theme_minimal()
+    
+    if (input$metric == "engagement_rate") {
+      p <- p + scale_y_continuous(labels = percent_format(accuracy = 0.1))
+    } else {
+      p <- p + scale_y_continuous(labels = comma_format())
+    }
+    
+    ggplotly(p, tooltip = "text")
+  })
+  
+  output$media_plot <- renderPlotly({
+    media_data <- filtered_data() |>
+      group_by(media_type) |>
+      summarise(
+        metric_value = mean(.data[[input$metric]], na.rm = TRUE),
+        posts = n(),
+        .groups = "drop"
+      ) |>
+      arrange(desc(metric_value))
+    
+    p <- ggplot(
+      media_data,
+      aes(
+        x = reorder(media_type, metric_value),
+        y = metric_value,
+        fill = media_type,
+        text = paste(
+          "Media Type:", media_type,
+          "<br>Posts:", posts,
+          "<br>Value:", round(metric_value, 3)
+        )
+      )
+    ) +
+      geom_col(show.legend = TRUE) +
+      coord_flip() +
+      labs(
+        title = paste("Average", names(metric_choices[metric_choices == input$metric]), "by Media Type"),
+        x = "Media Type",
+        y = names(metric_choices[metric_choices == input$metric])
+      ) +
+      theme_minimal()
+    
+    if (input$metric == "engagement_rate") {
+      p <- p + scale_y_continuous(labels = percent_format(accuracy = 0.1))
+    } else {
+      p <- p + scale_y_continuous(labels = comma_format())
+    }
+    
+    ggplotly(p, tooltip = "text")
+  })
+  
+  output$caption_plot <- renderPlotly({
+    caption_data <- filtered_data() |>
+      group_by(caption_type) |>
+      summarise(
+        metric_value = mean(.data[[input$metric]], na.rm = TRUE),
+        posts = n(),
+        .groups = "drop"
+      ) |>
+      arrange(desc(metric_value))
+    
+    p <- ggplot(
+      caption_data,
+      aes(
+        x = reorder(caption_type, metric_value),
+        y = metric_value,
+        fill = caption_type,
+        text = paste(
+          "Caption Type:", caption_type,
+          "<br>Posts:", posts,
+          "<br>Value:", round(metric_value, 3)
+        )
+      )
+    ) +
+      geom_col(show.legend = TRUE) +
+      coord_flip() +
+      labs(
+        title = paste("Average", names(metric_choices[metric_choices == input$metric]), "by Caption Type"),
+        x = "Caption Type",
+        y = names(metric_choices[metric_choices == input$metric])
+      ) +
+      theme_minimal()
+    
+    if (input$metric == "engagement_rate") {
+      p <- p + scale_y_continuous(labels = percent_format(accuracy = 0.1))
+    } else {
+      p <- p + scale_y_continuous(labels = comma_format())
+    }
+    
+    ggplotly(p, tooltip = "text")
+  })
+  
+  output$top_posts_table <- renderDT({
+    top_posts <- filtered_data() |>
+      select(
+        post_date,
+        media_type,
+        caption_type,
+        reach,
+        likes,
+        comments,
+        shares,
+        saves,
+        follows,
+        engagement_rate
+      ) |>
+      arrange(desc(.data[[input$metric]])) |>
+      slice_head(n = input$top_n) |>
+      mutate(
+        post_date = format(post_date, "%Y-%m-%d"),
+        engagement_rate = percent(engagement_rate, accuracy = 0.01)
+      )
+    
+    datatable(
+      top_posts,
+      rownames = FALSE,
+      options = list(pageLength = 10, scrollX = TRUE)
+    )
+  })
+}
+
+shinyApp(ui = ui, server = server)
+```
+
+## Key Findings from the Data
+
+The interactive app shows that ODI Grips’ Instagram performance is not driven by one single content strategy. Across the full date range, reels have the highest average engagement rate, followed by image posts, while IGTV has the weakest performance. Caption strategy also matters, with Community/Brand content standing out as the strongest caption type for average engagement rate.
+
+The app also shows that performance changes over time rather than remaining flat. The trend view suggests that engagement is generally lower and more stable in earlier periods, with a noticeable increase and several spikes in later periods, especially around 2024. This supports the idea that ODI Grips’ content performance depends on both content type and timing.
+
+## Interpret the Dashboard Charts
+
+The trend chart shows how the selected metric changes by month across the chosen date range and filters. In the current view, engagement rate rises substantially in later periods and includes several strong spikes, which suggests that some recent content performed much better than the historical baseline.
+
+The media type comparison chart shows that reels generate the highest average engagement rate, followed by image posts and carousel posts, while IGTV performs the worst. This suggests that short-form or visually direct content formats are more effective for engagement than IGTV within this dataset.
+
+The caption type comparison chart shows that Community/Brand content has the highest average engagement rate by a large margin. Informational and Product Marketing content perform in the middle range, while Other is the weakest category. This suggests that community-oriented messaging resonates more strongly than generic or less defined caption strategies.
+
+The top posts table provides post-level detail and helps validate the category-level findings. In the current view, many of the top-performing posts are reels and several belong to Community/Brand, Event Content, or Product Marketing categories. This helps connect the broader dashboard patterns to specific high-performing posts.
+
+## Interactive App
+
+The interactive app was built to let users explore ODI Grips Instagram data dynamically instead of viewing only one fixed summary. It allows users to filter by date range, choose a performance metric, compare media and caption strategies, and review top-performing posts. This makes the app more useful for decision-making because users can test different assumptions and immediately see how the results change.
+
+## Clickable URL of the Shiny App
+
+[Project 2 Shiny App](https://50kzbk-jeffrey-hsu.shinyapps.io/shiny_app/)
