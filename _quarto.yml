@@ -10,9 +10,9 @@ website:
       - href: dashboard.qmd
         text: Quarto Dashboard
       - href: shiny-app.qmd
-        text: Essay on Shiny Apps
+        text: Shiny App
       - href: shinylive-essay.qmd
-        text: Essay on Shinylive
+        text: Shinylive Essay
 
 format:
   html:
@@ -20,3 +20,6 @@ format:
     toc: true
     toc-depth: 3
     toc-expand: true
+    embed-resources: true
+    code-fold: true
+    code-tools: true
