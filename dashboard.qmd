@@ -15,16 +15,16 @@ editor: source
 ---
 
 ```{r}
-library(tidyverse)
+library(readr)
+library(dplyr)
+library(ggplot2)
 library(lubridate)
 library(scales)
-library(gt)
-library(janitor)
+library(knitr)
 
 theme_set(theme_minimal())
 
 odi <- read_csv("@odi_grips Instagram Content Data Final Version - V2.csv") |>
-  clean_names() |>
   mutate(
     post_date = as.Date(post_date),
     year_month = floor_date(post_date, unit = "month"),
@@ -170,19 +170,11 @@ top_posts <- odi |>
     engagement_rate
   ) |>
   arrange(desc(engagement_rate)) |>
-  slice_head(n = 10)
-
-top_posts |>
+  slice_head(n = 10) |>
   mutate(
     post_date = format(post_date, "%Y-%m-%d"),
     engagement_rate = percent(engagement_rate, accuracy = 0.01)
-  ) |>
-  gt() |>
-  tab_header(
-    title = "Top 10 Posts by Engagement Rate"
-  ) |>
-  fmt_number(
-    columns = c(reach, likes, shares, comments, saves, follows),
-    decimals = 0
   )
+
+kable(top_posts, caption = "Top 10 Posts by Engagement Rate")
 ```
