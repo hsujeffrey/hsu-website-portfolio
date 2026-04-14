@@ -25,12 +25,14 @@ jobs:
       - name: Install R packages
         run: |
           Rscript -e 'install.packages(c(
-            "readr",
-            "dplyr",
-            "ggplot2",
+            "tidyverse",
             "lubridate",
             "scales",
-            "knitr"
+            "gt",
+            "janitor",
+            "readr",
+            "dplyr",
+            "ggplot2"
           ), repos = "https://cloud.r-project.org")'
 
       - name: Render site
