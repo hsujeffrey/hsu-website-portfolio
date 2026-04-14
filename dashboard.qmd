@@ -218,21 +218,13 @@ top_posts <- odi |>
     engagement_rate
   ) |>
   arrange(desc(engagement_rate)) |>
-  slice_head(n = 10)
-
-top_posts |>
+  slice_head(n = 10) |>
   mutate(
     post_date = format(post_date, "%Y-%m-%d"),
     engagement_rate = percent(engagement_rate, accuracy = 0.01)
-  ) |>
-  gt() |>
-  tab_header(
-    title = "Top 10 Posts by Engagement Rate"
-  ) |>
-  fmt_number(
-    columns = c(reach, likes, shares, comments, saves, follows),
-    decimals = 0
   )
+
+kable(top_posts, caption = "Top 10 Posts by Engagement Rate")
 ```
 
 ## Row
