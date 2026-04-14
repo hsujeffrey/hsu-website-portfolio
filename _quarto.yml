@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Jeffrey Hsu"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: dashboard.qmd
+        text: Quarto Dashboard
+      - href: shiny-app.qmd
+        text: Essay on Shiny Apps
+      - href: shinylive-essay.qmd
+        text: Essay on Shinylive
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    toc-expand: true
