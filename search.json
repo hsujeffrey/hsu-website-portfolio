@@ -1,5 +1,47 @@
 [
   {
+    "objectID": "shinylive-essay.html",
+    "href": "shinylive-essay.html",
+    "title": "Shinylive vs Traditional Shiny",
+    "section": "",
+    "text": "Shinylive is a way to run Shiny apps directly in a web browser without needing a server. Instead of hosting the app on a platform like shinyapps.io, the app runs entirely on the client side using WebAssembly.\nThis means the app can be embedded directly into a website while still remaining interactive.\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nCore Difference:\nTraditional Shiny requires a server. Shinylive runs entirely in the browser.\n\n\n\n\n\nRequires a server (e.g., shinyapps.io)\n\nProcesses user input on the server\n\nSupports complex computations and larger datasets\n\n\n\n\n\nNo server required\n\nRuns entirely in the browser\n\nDesigned for lightweight, shareable apps\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nShinylive simplifies deployment and reduces friction for smaller projects.\n\n\n\nNo hosting required\nCan be deployed as part of a static website\nLower cost\nNo need to pay for server infrastructure\nEasy to share\nCan be embedded directly into a webpage\nFast for simple apps\nRuns locally in the browser\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nShinylive is not a replacement for full-scale Shiny applications.\n\n\n\nLimited scalability\nNot ideal for large datasets\nPerformance constraints\nBrowser execution is less powerful than a server\nPackage limitations\nNot all R packages are supported\nLess flexibility\nAdvanced features are harder to implement\n\n\n\n\n\n\n\n\nbuilding lightweight apps\n\ncreating portfolios or demos\n\nsharing simple interactive analyses\n\nteaching or presenting concepts\n\n\n\n\n\nworking with large datasets\n\nbuilding production-level applications\n\nneeding full R package support\n\nrequiring advanced interactivity\n\n\n\n\n\n\nShinylive is a strong option for simple, shareable applications that do not require server infrastructure. However, traditional Shiny remains the better choice for more complex and scalable applications.\nChoosing between the two depends on the size, complexity, and purpose of the project."
+  },
+  {
+    "objectID": "shinylive-essay.html#traditional-shiny-vs-shinylive",
+    "href": "shinylive-essay.html#traditional-shiny-vs-shinylive",
+    "title": "Shinylive vs Traditional Shiny",
+    "section": "",
+    "text": "Note\n\n\n\nCore Difference:\nTraditional Shiny requires a server. Shinylive runs entirely in the browser.\n\n\n\n\n\nRequires a server (e.g., shinyapps.io)\n\nProcesses user input on the server\n\nSupports complex computations and larger datasets\n\n\n\n\n\nNo server required\n\nRuns entirely in the browser\n\nDesigned for lightweight, shareable apps"
+  },
+  {
+    "objectID": "shinylive-essay.html#advantages-of-shinylive",
+    "href": "shinylive-essay.html#advantages-of-shinylive",
+    "title": "Shinylive vs Traditional Shiny",
+    "section": "",
+    "text": "Tip\n\n\n\nShinylive simplifies deployment and reduces friction for smaller projects.\n\n\n\nNo hosting required\nCan be deployed as part of a static website\nLower cost\nNo need to pay for server infrastructure\nEasy to share\nCan be embedded directly into a webpage\nFast for simple apps\nRuns locally in the browser"
+  },
+  {
+    "objectID": "shinylive-essay.html#limitations-of-shinylive",
+    "href": "shinylive-essay.html#limitations-of-shinylive",
+    "title": "Shinylive vs Traditional Shiny",
+    "section": "",
+    "text": "Warning\n\n\n\nShinylive is not a replacement for full-scale Shiny applications.\n\n\n\nLimited scalability\nNot ideal for large datasets\nPerformance constraints\nBrowser execution is less powerful than a server\nPackage limitations\nNot all R packages are supported\nLess flexibility\nAdvanced features are harder to implement"
+  },
+  {
+    "objectID": "shinylive-essay.html#when-to-use-each-approach",
+    "href": "shinylive-essay.html#when-to-use-each-approach",
+    "title": "Shinylive vs Traditional Shiny",
+    "section": "",
+    "text": "building lightweight apps\n\ncreating portfolios or demos\n\nsharing simple interactive analyses\n\nteaching or presenting concepts\n\n\n\n\n\nworking with large datasets\n\nbuilding production-level applications\n\nneeding full R package support\n\nrequiring advanced interactivity"
+  },
+  {
+    "objectID": "shinylive-essay.html#final-takeaway",
+    "href": "shinylive-essay.html#final-takeaway",
+    "title": "Shinylive vs Traditional Shiny",
+    "section": "",
+    "text": "Shinylive is a strong option for simple, shareable applications that do not require server infrastructure. However, traditional Shiny remains the better choice for more complex and scalable applications.\nChoosing between the two depends on the size, complexity, and purpose of the project."
+  },
+  {
     "objectID": "shiny-app.html",
     "href": "shiny-app.html",
     "title": "Shiny App: ODI Grips Content Explorer",
@@ -70,80 +112,52 @@
     "text": "Shiny adds value because it turns a static analysis into an interactive experience. For this project, it makes ODI Grips Instagram data more flexible, more informative, and more practical for real decision-making."
   },
   {
-    "objectID": "shinylive-essay.html",
-    "href": "shinylive-essay.html",
-    "title": "Shinylive vs Traditional Shiny",
-    "section": "",
-    "text": "Shinylive is a way to run Shiny apps directly in a web browser without needing a server. Instead of hosting the app on a platform like shinyapps.io, the app runs entirely on the client side using WebAssembly.\nThis means the app can be embedded directly into a website while still remaining interactive.\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nCore Difference:\nTraditional Shiny requires a server. Shinylive runs entirely in the browser.\n\n\n\n\n\nRequires a server (e.g., shinyapps.io)\n\nProcesses user input on the server\n\nSupports complex computations and larger datasets\n\n\n\n\n\nNo server required\n\nRuns entirely in the browser\n\nDesigned for lightweight, shareable apps\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nShinylive simplifies deployment and reduces friction for smaller projects.\n\n\n\nNo hosting required\nCan be deployed as part of a static website\nLower cost\nNo need to pay for server infrastructure\nEasy to share\nCan be embedded directly into a webpage\nFast for simple apps\nRuns locally in the browser\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nShinylive is not a replacement for full-scale Shiny applications.\n\n\n\nLimited scalability\nNot ideal for large datasets\nPerformance constraints\nBrowser execution is less powerful than a server\nPackage limitations\nNot all R packages are supported\nLess flexibility\nAdvanced features are harder to implement\n\n\n\n\n\n\n\n\nbuilding lightweight apps\n\ncreating portfolios or demos\n\nsharing simple interactive analyses\n\nteaching or presenting concepts\n\n\n\n\n\nworking with large datasets\n\nbuilding production-level applications\n\nneeding full R package support\n\nrequiring advanced interactivity\n\n\n\n\n\n\nShinylive is a strong option for simple, shareable applications that do not require server infrastructure. However, traditional Shiny remains the better choice for more complex and scalable applications.\nChoosing between the two depends on the size, complexity, and purpose of the project."
-  },
-  {
-    "objectID": "shinylive-essay.html#traditional-shiny-vs-shinylive",
-    "href": "shinylive-essay.html#traditional-shiny-vs-shinylive",
-    "title": "Shinylive vs Traditional Shiny",
-    "section": "",
-    "text": "Note\n\n\n\nCore Difference:\nTraditional Shiny requires a server. Shinylive runs entirely in the browser.\n\n\n\n\n\nRequires a server (e.g., shinyapps.io)\n\nProcesses user input on the server\n\nSupports complex computations and larger datasets\n\n\n\n\n\nNo server required\n\nRuns entirely in the browser\n\nDesigned for lightweight, shareable apps"
-  },
-  {
-    "objectID": "shinylive-essay.html#advantages-of-shinylive",
-    "href": "shinylive-essay.html#advantages-of-shinylive",
-    "title": "Shinylive vs Traditional Shiny",
-    "section": "",
-    "text": "Tip\n\n\n\nShinylive simplifies deployment and reduces friction for smaller projects.\n\n\n\nNo hosting required\nCan be deployed as part of a static website\nLower cost\nNo need to pay for server infrastructure\nEasy to share\nCan be embedded directly into a webpage\nFast for simple apps\nRuns locally in the browser"
-  },
-  {
-    "objectID": "shinylive-essay.html#limitations-of-shinylive",
-    "href": "shinylive-essay.html#limitations-of-shinylive",
-    "title": "Shinylive vs Traditional Shiny",
-    "section": "",
-    "text": "Warning\n\n\n\nShinylive is not a replacement for full-scale Shiny applications.\n\n\n\nLimited scalability\nNot ideal for large datasets\nPerformance constraints\nBrowser execution is less powerful than a server\nPackage limitations\nNot all R packages are supported\nLess flexibility\nAdvanced features are harder to implement"
-  },
-  {
-    "objectID": "shinylive-essay.html#when-to-use-each-approach",
-    "href": "shinylive-essay.html#when-to-use-each-approach",
-    "title": "Shinylive vs Traditional Shiny",
-    "section": "",
-    "text": "building lightweight apps\n\ncreating portfolios or demos\n\nsharing simple interactive analyses\n\nteaching or presenting concepts\n\n\n\n\n\nworking with large datasets\n\nbuilding production-level applications\n\nneeding full R package support\n\nrequiring advanced interactivity"
-  },
-  {
-    "objectID": "shinylive-essay.html#final-takeaway",
-    "href": "shinylive-essay.html#final-takeaway",
-    "title": "Shinylive vs Traditional Shiny",
-    "section": "",
-    "text": "Shinylive is a strong option for simple, shareable applications that do not require server infrastructure. However, traditional Shiny remains the better choice for more complex and scalable applications.\nChoosing between the two depends on the size, complexity, and purpose of the project."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Jeffrey Hsu",
     "section": "",
-    "text": "I am currently pursuing a Master of Science in Digital Marketing at Cal Poly Pomona, where I am building skills in marketing analytics, dashboards, digital strategy, and data storytelling."
+    "text": "I am currently pursuing a Master of Science in Digital Marketing at Cal Poly Pomona, with a focus on marketing analytics, dashboard reporting, digital strategy, and data storytelling.\nMy portfolio is designed for employers and professionals looking for someone who can connect marketing strategy with data-driven decision-making. I am interested in roles related to marketing analytics, performance marketing, digital strategy, campaign reporting, and content performance analysis."
   },
   {
-    "objectID": "index.html#career-aspirations",
-    "href": "index.html#career-aspirations",
+    "objectID": "index.html#career-focus",
+    "href": "index.html#career-focus",
     "title": "Jeffrey Hsu",
-    "section": "Career Aspirations",
-    "text": "Career Aspirations\nMy goal is to build a career in marketing analytics and digital strategy, where I can combine data analysis with business decision-making. I am particularly interested in roles that involve performance marketing, content strategy, and data-driven optimization.\nI want to work in an environment where I can: - Analyze marketing performance data to drive decisions\n- Build dashboards and reports that influence strategy\n- Use tools like R, Quarto, and analytics platforms to improve business outcomes"
+    "section": "Career Focus",
+    "text": "Career Focus\nI want to build a career where I can use data to improve marketing decisions. My strongest interest is in helping organizations understand what is working, what is underperforming, and where they should focus next.\nI am especially interested in marketing performance dashboards, attribution analysis, website traffic analytics, SEO and paid media reporting, and turning technical analysis into clear business recommendations that teams can actually use."
+  },
+  {
+    "objectID": "index.html#portfolio-highlights",
+    "href": "index.html#portfolio-highlights",
+    "title": "Jeffrey Hsu",
+    "section": "Portfolio Highlights",
+    "text": "Portfolio Highlights\nThis website includes selected projects from my digital marketing and analytics coursework.\n\n\n\n\n\n\nNote\n\n\n\nThe goal of this portfolio is to demonstrate both creative digital marketing thinking and technical marketing analytics execution.\n\n\n\nDigital Marketing\nMy digital marketing work focuses on campaign strategy, content planning, SEO, audience targeting, and customer engagement. These projects highlight how I approach marketing from both a business and communication perspective.\n\n\nMarketing Analytics\nMy analytics work focuses on dashboards, attribution modeling, website traffic analysis, and reproducible reporting using tools such as R, Quarto, GA4, BigQuery, and Looker Studio.\n\n\nPresentation Work\nThe presentation section demonstrates my ability to explain technical concepts clearly to non-technical audiences through professional slide design and data storytelling."
   },
   {
     "objectID": "index.html#skills",
     "href": "index.html#skills",
     "title": "Jeffrey Hsu",
     "section": "Skills",
-    "text": "Skills\n\nMarketing & Analytics\n\nKPI analysis and performance tracking\n\nContent and social media analysis\n\nCampaign evaluation and optimization\n\n\n\nTechnical Skills\n\nR programming (data cleaning, modeling, visualization)\n\nQuarto (dashboards and website publishing)\n\nData visualization and reporting\n\n\n\nCommunication\n\nTranslating data into actionable insights\n\nPresenting findings to non-technical audiences\n\nStructuring analysis into clear business narratives"
+    "text": "Skills\n\nMarketing & Analytics\nKPI Analysis and Performance Tracking\nExperience interpreting campaign and marketing performance metrics to support business decisions.\nContent and Social Media Analysis\nAbility to evaluate content engagement, audience behavior, and digital marketing performance.\nCampaign Evaluation and Optimization\nExperience identifying trends, strengths, and opportunities within marketing campaigns.\n\n\nTechnical Skills\nR Programming\nData cleaning, visualization, reporting, and basic modeling using R and Quarto.\nDashboard Development\nBuilding dashboards and reproducible reports using Quarto, GA4, BigQuery, and Looker Studio.\nData Visualization\nCreating clear charts, dashboards, and presentations for technical and non-technical audiences.\n\n\nCommunication\nBusiness Storytelling\nTranslating complex analysis into understandable business recommendations.\nPresentation Skills\nPresenting dashboards, reports, and findings in a professional and audience-friendly format.\nStrategic Thinking\nConnecting marketing performance insights with broader business goals and strategy."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Jeffrey Hsu",
     "section": "Education",
-    "text": "Education\nCalifornia State Polytechnic University, Pomona\nMaster of Science in Digital Marketing"
+    "text": "Education\n\nCalifornia State Polytechnic University, Pomona\nMaster of Science in Digital Marketing\nCoursework and projects have focused on digital marketing strategy, marketing analytics, dashboard development, attribution modeling, web analytics, and reproducible reporting."
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
+    "objectID": "index.html#professional-direction",
+    "href": "index.html#professional-direction",
     "title": "Jeffrey Hsu",
-    "section": "Experience",
-    "text": "Experience\nThrough my coursework and projects, I have developed experience creating dashboards, analyzing content performance, and presenting insights in a professional format."
+    "section": "Professional Direction",
+    "text": "Professional Direction\nI want to work in a role where I can combine marketing, analytics, and communication to help teams make smarter, data-informed decisions through reporting, dashboards, and strategic analysis."
+  },
+  {
+    "objectID": "index.html#explore-my-work",
+    "href": "index.html#explore-my-work",
+    "title": "Jeffrey Hsu",
+    "section": "Explore My Work",
+    "text": "Explore My Work\nUse the navigation menu to explore my digital marketing projects, marketing analytics projects, resume, RevealJS presentations, and website traffic analytics work."
   }
 ]
