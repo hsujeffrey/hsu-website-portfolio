@@ -1,6 +1,6 @@
 ---
 title: "Jeffrey Hsu"
-subtitle: "MS in Digital Marketing | Marketing Analytics and Strategy"
+subtitle: "Digital Marketing | Marketing Analytics | Data Storytelling"
 about:
   template: jolla
   image: "Jeffrey Hsu Passport Photo (PRINTED).png"
@@ -16,39 +16,83 @@ about:
 format: html
 ---
 
-I am currently pursuing a **Master of Science in Digital Marketing** at **Cal Poly Pomona**, where I am building skills in marketing analytics, dashboards, digital strategy, and data storytelling.
+I am currently pursuing a **Master of Science in Digital Marketing at Cal Poly Pomona**, with a focus on marketing analytics, dashboard reporting, digital strategy, and data storytelling.
 
-## Career Aspirations
+My portfolio is designed for employers and professionals looking for someone who can connect marketing strategy with data-driven decision-making. I am interested in roles related to marketing analytics, performance marketing, digital strategy, campaign reporting, and content performance analysis.
 
-My goal is to build a career in **marketing analytics and digital strategy**, where I can combine data analysis with business decision-making. I am particularly interested in roles that involve performance marketing, content strategy, and data-driven optimization.
+## Career Focus
 
-I want to work in an environment where I can:
-- Analyze marketing performance data to drive decisions  
-- Build dashboards and reports that influence strategy  
-- Use tools like R, Quarto, and analytics platforms to improve business outcomes  
+I want to build a career where I can use data to improve marketing decisions. My strongest interest is in helping organizations understand what is working, what is underperforming, and where they should focus next.
+
+I am especially interested in marketing performance dashboards, attribution analysis, website traffic analytics, SEO and paid media reporting, and turning technical analysis into clear business recommendations that teams can actually use.
+
+## Portfolio Highlights
+
+This website includes selected projects from my digital marketing and analytics coursework.
+
+::: {.callout-note}
+The goal of this portfolio is to demonstrate both creative digital marketing thinking and technical marketing analytics execution.
+:::
+
+### Digital Marketing
+
+My digital marketing work focuses on campaign strategy, content planning, SEO, audience targeting, and customer engagement. These projects highlight how I approach marketing from both a business and communication perspective.
+
+### Marketing Analytics
+
+My analytics work focuses on dashboards, attribution modeling, website traffic analysis, and reproducible reporting using tools such as **R, Quarto, GA4, BigQuery, and Looker Studio**.
+
+### Presentation Work
+
+The presentation section demonstrates my ability to explain technical concepts clearly to non-technical audiences through professional slide design and data storytelling.
 
 ## Skills
 
 ### Marketing & Analytics
-- KPI analysis and performance tracking  
-- Content and social media analysis  
-- Campaign evaluation and optimization  
+
+**KPI Analysis and Performance Tracking**  
+Experience interpreting campaign and marketing performance metrics to support business decisions.
+
+**Content and Social Media Analysis**  
+Ability to evaluate content engagement, audience behavior, and digital marketing performance.
+
+**Campaign Evaluation and Optimization**  
+Experience identifying trends, strengths, and opportunities within marketing campaigns.
 
 ### Technical Skills
-- R programming (data cleaning, modeling, visualization)  
-- Quarto (dashboards and website publishing)  
-- Data visualization and reporting  
+
+**R Programming**  
+Data cleaning, visualization, reporting, and basic modeling using R and Quarto.
+
+**Dashboard Development**  
+Building dashboards and reproducible reports using Quarto, GA4, BigQuery, and Looker Studio.
+
+**Data Visualization**  
+Creating clear charts, dashboards, and presentations for technical and non-technical audiences.
 
 ### Communication
-- Translating data into actionable insights  
-- Presenting findings to non-technical audiences  
-- Structuring analysis into clear business narratives  
+
+**Business Storytelling**  
+Translating complex analysis into understandable business recommendations.
+
+**Presentation Skills**  
+Presenting dashboards, reports, and findings in a professional and audience-friendly format.
+
+**Strategic Thinking**  
+Connecting marketing performance insights with broader business goals and strategy.
 
 ## Education
 
-**California State Polytechnic University, Pomona**  
-Master of Science in Digital Marketing  
+### California State Polytechnic University, Pomona
 
-## Experience
+**Master of Science in Digital Marketing**
 
-Through my coursework and projects, I have developed experience creating dashboards, analyzing content performance, and presenting insights in a professional format.
+Coursework and projects have focused on digital marketing strategy, marketing analytics, dashboard development, attribution modeling, web analytics, and reproducible reporting.
+
+## Professional Direction
+
+I want to work in a role where I can combine marketing, analytics, and communication to help teams make smarter, data-informed decisions through reporting, dashboards, and strategic analysis.
+
+## Explore My Work
+
+Use the navigation menu to explore my digital marketing projects, marketing analytics projects, resume, RevealJS presentations, and website traffic analytics work.
