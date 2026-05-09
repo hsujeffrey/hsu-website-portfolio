@@ -1,45 +1,24 @@
 [
   {
-    "objectID": "shinylive-essay.html",
-    "href": "shinylive-essay.html",
-    "title": "Shinylive vs Traditional Shiny",
+    "objectID": "digital-marketing.html",
+    "href": "digital-marketing.html",
+    "title": "",
     "section": "",
-    "text": "Shinylive is a way to run Shiny apps directly in a web browser without needing a server. Instead of hosting the app on a platform like shinyapps.io, the app runs entirely on the client side using WebAssembly.\nThis means the app can be embedded directly into a website while still remaining interactive.\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nCore Difference:\nTraditional Shiny requires a server. Shinylive runs entirely in the browser.\n\n\n\n\n\nRequires a server (e.g., shinyapps.io)\n\nProcesses user input on the server\n\nSupports complex computations and larger datasets\n\n\n\n\n\nNo server required\n\nRuns entirely in the browser\n\nDesigned for lightweight, shareable apps\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nShinylive simplifies deployment and reduces friction for smaller projects.\n\n\n\nNo hosting required\nCan be deployed as part of a static website\nLower cost\nNo need to pay for server infrastructure\nEasy to share\nCan be embedded directly into a webpage\nFast for simple apps\nRuns locally in the browser\n\n\n\n\n\n\n\n\n\n\n\nWarning\n\n\n\nShinylive is not a replacement for full-scale Shiny applications.\n\n\n\nLimited scalability\nNot ideal for large datasets\nPerformance constraints\nBrowser execution is less powerful than a server\nPackage limitations\nNot all R packages are supported\nLess flexibility\nAdvanced features are harder to implement\n\n\n\n\n\n\n\n\nbuilding lightweight apps\n\ncreating portfolios or demos\n\nsharing simple interactive analyses\n\nteaching or presenting concepts\n\n\n\n\n\nworking with large datasets\n\nbuilding production-level applications\n\nneeding full R package support\n\nrequiring advanced interactivity\n\n\n\n\n\n\nShinylive is a strong option for simple, shareable applications that do not require server infrastructure. However, traditional Shiny remains the better choice for more complex and scalable applications.\nChoosing between the two depends on the size, complexity, and purpose of the project."
+    "text": "Code"
   },
   {
-    "objectID": "shinylive-essay.html#traditional-shiny-vs-shinylive",
-    "href": "shinylive-essay.html#traditional-shiny-vs-shinylive",
-    "title": "Shinylive vs Traditional Shiny",
+    "objectID": "marketing-analytics.html",
+    "href": "marketing-analytics.html",
+    "title": "",
     "section": "",
-    "text": "Note\n\n\n\nCore Difference:\nTraditional Shiny requires a server. Shinylive runs entirely in the browser.\n\n\n\n\n\nRequires a server (e.g., shinyapps.io)\n\nProcesses user input on the server\n\nSupports complex computations and larger datasets\n\n\n\n\n\nNo server required\n\nRuns entirely in the browser\n\nDesigned for lightweight, shareable apps"
+    "text": "Code"
   },
   {
-    "objectID": "shinylive-essay.html#advantages-of-shinylive",
-    "href": "shinylive-essay.html#advantages-of-shinylive",
-    "title": "Shinylive vs Traditional Shiny",
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "",
     "section": "",
-    "text": "Tip\n\n\n\nShinylive simplifies deployment and reduces friction for smaller projects.\n\n\n\nNo hosting required\nCan be deployed as part of a static website\nLower cost\nNo need to pay for server infrastructure\nEasy to share\nCan be embedded directly into a webpage\nFast for simple apps\nRuns locally in the browser"
-  },
-  {
-    "objectID": "shinylive-essay.html#limitations-of-shinylive",
-    "href": "shinylive-essay.html#limitations-of-shinylive",
-    "title": "Shinylive vs Traditional Shiny",
-    "section": "",
-    "text": "Warning\n\n\n\nShinylive is not a replacement for full-scale Shiny applications.\n\n\n\nLimited scalability\nNot ideal for large datasets\nPerformance constraints\nBrowser execution is less powerful than a server\nPackage limitations\nNot all R packages are supported\nLess flexibility\nAdvanced features are harder to implement"
-  },
-  {
-    "objectID": "shinylive-essay.html#when-to-use-each-approach",
-    "href": "shinylive-essay.html#when-to-use-each-approach",
-    "title": "Shinylive vs Traditional Shiny",
-    "section": "",
-    "text": "building lightweight apps\n\ncreating portfolios or demos\n\nsharing simple interactive analyses\n\nteaching or presenting concepts\n\n\n\n\n\nworking with large datasets\n\nbuilding production-level applications\n\nneeding full R package support\n\nrequiring advanced interactivity"
-  },
-  {
-    "objectID": "shinylive-essay.html#final-takeaway",
-    "href": "shinylive-essay.html#final-takeaway",
-    "title": "Shinylive vs Traditional Shiny",
-    "section": "",
-    "text": "Shinylive is a strong option for simple, shareable applications that do not require server infrastructure. However, traditional Shiny remains the better choice for more complex and scalable applications.\nChoosing between the two depends on the size, complexity, and purpose of the project."
+    "text": "Code"
   },
   {
     "objectID": "index.html",
