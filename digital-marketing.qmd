@@ -182,19 +182,17 @@ This workshop demonstrates both marketing strategy knowledge and communication s
 ## Workshop Video
 
 ```{=html}
-<div style="display:flex; justify-content:center; margin-top:20px; margin-bottom:30px;">
-<iframe 
-width="900" 
-height="500" 
-src="https://www.youtube.com/embed/gtleR5ONIog?si=skuOeTkH04DXsUEd" 
-title="YouTube video player" 
-frameborder="0" 
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-referrerpolicy="strict-origin-when-cross-origin" 
-allowfullscreen>
-</iframe>
+<div class="project-card" style="text-align:center;">
+  <span class="section-tag">Workshop Recording</span>
+  <h3>Instagram Marketing Workshop</h3>
+  <p>
+    I hosted a digital marketing workshop on Instagram strategy, audience engagement,
+    hashtag usage, content planning, and marketing analytics.
+  </p>
+  <a class="btn btn-primary" href="https://www.youtube.com/watch?v=gtleR5ONIog" target="_blank">
+    Watch Workshop on YouTube
+  </a>
 </div>
-```
 
 # Social Media Campaign Development: Los Angeles Police Protective League
 
