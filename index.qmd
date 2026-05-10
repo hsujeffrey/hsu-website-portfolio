@@ -3,7 +3,7 @@ title: "Jeffrey Hsu"
 subtitle: "Digital Marketing | Marketing Analytics | Data Storytelling"
 about:
   template: jolla
-  image: "Jeffrey Hsu Passport Photo (PRINTED).png"
+  image: "images/jeffrey-headshot.png"
   image-shape: round
   image-width: 14em
   links:
@@ -13,12 +13,18 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/
-format: html
+format:
+  html:
+    theme:
+      - cosmo
+      - theme.scss
 ---
 
-I am currently pursuing a **Master of Science in Digital Marketing at Cal Poly Pomona**, with a focus on marketing analytics, dashboard reporting, digital strategy, and data storytelling.
+::: {.highlight-box}
+I am currently pursuing a **Master of Science in Digital Marketing at Cal Poly Pomona**, with a focus on **marketing analytics, dashboard reporting, digital strategy, and data storytelling**.
+:::
 
-My portfolio is designed for employers and professionals looking for someone who can connect marketing strategy with data-driven decision-making. I am interested in roles related to marketing analytics, performance marketing, digital strategy, campaign reporting, and content performance analysis.
+My portfolio is designed for employers and professionals looking for someone who can connect marketing strategy with data-driven decision-making. I am interested in roles related to **marketing analytics, performance marketing, digital strategy, campaign reporting, and content performance analysis**.
 
 ## Career Focus
 
@@ -28,60 +34,107 @@ I am especially interested in marketing performance dashboards, attribution anal
 
 ## Portfolio Highlights
 
-This website includes selected projects from my digital marketing and analytics coursework.
+::: {.columns}
 
-::: {.callout-note}
-The goal of this portfolio is to demonstrate both creative digital marketing thinking and technical marketing analytics execution.
+::: {.column width="33%"}
+
+::: {.project-card}
+<span class="section-tag">Digital Marketing</span>
+
+My digital marketing work focuses on campaign strategy, content planning, SEO, audience targeting, and customer engagement.
+
 :::
 
-### Digital Marketing
+:::
 
-My digital marketing work focuses on campaign strategy, content planning, SEO, audience targeting, and customer engagement. These projects highlight how I approach marketing from both a business and communication perspective.
+::: {.column width="33%"}
 
-### Marketing Analytics
+::: {.project-card}
+<span class="section-tag">Marketing Analytics</span>
 
-My analytics work focuses on dashboards, attribution modeling, website traffic analysis, and reproducible reporting using tools such as **R, Quarto, GA4, BigQuery, and Looker Studio**.
+My analytics work focuses on dashboards, attribution modeling, website traffic analysis, and reproducible reporting using **R, Quarto, GA4, BigQuery, and Looker Studio**.
 
-### Presentation Work
+:::
 
-The presentation section demonstrates my ability to explain technical concepts clearly to non-technical audiences through professional slide design and data storytelling.
+:::
+
+::: {.column width="33%"}
+
+::: {.project-card}
+<span class="section-tag">Presentation Work</span>
+
+My presentation work shows how I explain technical concepts clearly through professional slide design and data storytelling.
+
+:::
+
+:::
+
+:::
 
 ## Skills
 
-### Marketing & Analytics
+::: {.columns}
 
-**KPI Analysis and Performance Tracking**  
-Experience interpreting campaign and marketing performance metrics to support business decisions.
+::: {.column width="33%"}
 
-**Content and Social Media Analysis**  
-Ability to evaluate content engagement, audience behavior, and digital marketing performance.
+::: {.project-card}
+<span class="section-tag">Marketing & Analytics</span>
 
-**Campaign Evaluation and Optimization**  
-Experience identifying trends, strengths, and opportunities within marketing campaigns.
+**KPI Analysis**  
+Interpreting marketing performance metrics to support better decisions.
 
-### Technical Skills
+**Content Analysis**  
+Evaluating engagement, audience behavior, and campaign performance.
+
+**Campaign Optimization**  
+Identifying trends, strengths, and opportunities across campaigns.
+
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {.project-card}
+<span class="section-tag">Technical Skills</span>
 
 **R Programming**  
-Data cleaning, visualization, reporting, and basic modeling using R and Quarto.
+Data cleaning, visualization, reporting, and basic modeling.
 
 **Dashboard Development**  
-Building dashboards and reproducible reports using Quarto, GA4, BigQuery, and Looker Studio.
+Building reports with Quarto, GA4, BigQuery, and Looker Studio.
 
 **Data Visualization**  
-Creating clear charts, dashboards, and presentations for technical and non-technical audiences.
+Creating clear visuals for technical and non-technical audiences.
 
-### Communication
+:::
+
+:::
+
+::: {.column width="33%"}
+
+::: {.project-card}
+<span class="section-tag">Communication</span>
 
 **Business Storytelling**  
-Translating complex analysis into understandable business recommendations.
+Translating analysis into understandable recommendations.
 
 **Presentation Skills**  
-Presenting dashboards, reports, and findings in a professional and audience-friendly format.
+Presenting dashboards, reports, and findings professionally.
 
 **Strategic Thinking**  
-Connecting marketing performance insights with broader business goals and strategy.
+Connecting marketing insights with broader business goals.
+
+:::
+
+:::
+
+:::
 
 ## Education
+
+::: {.project-card}
+<span class="section-tag">Education</span>
 
 ### California State Polytechnic University, Pomona
 
@@ -89,10 +142,14 @@ Connecting marketing performance insights with broader business goals and strate
 
 Coursework and projects have focused on digital marketing strategy, marketing analytics, dashboard development, attribution modeling, web analytics, and reproducible reporting.
 
+:::
+
 ## Professional Direction
 
+::: {.highlight-box}
 I want to work in a role where I can combine marketing, analytics, and communication to help teams make smarter, data-informed decisions through reporting, dashboards, and strategic analysis.
+:::
 
 ## Explore My Work
 
-Use the navigation menu to explore my digital marketing projects, marketing analytics projects, resume, RevealJS presentations, and website traffic analytics work.
+Use the navigation menu to explore my **Digital Marketing**, **Marketing Analytics**, **Resume**, **Presentation**, and **Website Traffic Analytics** pages.
