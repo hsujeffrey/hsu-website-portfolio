@@ -172,34 +172,34 @@
     "href": "index.html#portfolio-highlights",
     "title": "Jeffrey Hsu",
     "section": "Portfolio Highlights",
-    "text": "Portfolio Highlights\nThis website includes selected projects from my digital marketing and analytics coursework.\n\n\n\n\n\n\nNote\n\n\n\nThe goal of this portfolio is to demonstrate both creative digital marketing thinking and technical marketing analytics execution.\n\n\n\nDigital Marketing\nMy digital marketing work focuses on campaign strategy, content planning, SEO, audience targeting, and customer engagement. These projects highlight how I approach marketing from both a business and communication perspective.\n\n\nMarketing Analytics\nMy analytics work focuses on dashboards, attribution modeling, website traffic analysis, and reproducible reporting using tools such as R, Quarto, GA4, BigQuery, and Looker Studio.\n\n\nPresentation Work\nThe presentation section demonstrates my ability to explain technical concepts clearly to non-technical audiences through professional slide design and data storytelling."
+    "text": "Portfolio Highlights\n\n\n\nDigital Marketing\nMy digital marketing work focuses on campaign strategy, content planning, SEO, audience targeting, and customer engagement.\n\n\n\nMarketing Analytics\nMy analytics work focuses on dashboards, attribution modeling, website traffic analysis, and reproducible reporting using R, Quarto, GA4, BigQuery, and Looker Studio.\n\n\n\nPresentation Work\nMy presentation work shows how I explain technical concepts clearly through professional slide design and data storytelling."
   },
   {
     "objectID": "index.html#skills",
     "href": "index.html#skills",
     "title": "Jeffrey Hsu",
     "section": "Skills",
-    "text": "Skills\n\nMarketing & Analytics\nKPI Analysis and Performance Tracking\nExperience interpreting campaign and marketing performance metrics to support business decisions.\nContent and Social Media Analysis\nAbility to evaluate content engagement, audience behavior, and digital marketing performance.\nCampaign Evaluation and Optimization\nExperience identifying trends, strengths, and opportunities within marketing campaigns.\n\n\nTechnical Skills\nR Programming\nData cleaning, visualization, reporting, and basic modeling using R and Quarto.\nDashboard Development\nBuilding dashboards and reproducible reports using Quarto, GA4, BigQuery, and Looker Studio.\nData Visualization\nCreating clear charts, dashboards, and presentations for technical and non-technical audiences.\n\n\nCommunication\nBusiness Storytelling\nTranslating complex analysis into understandable business recommendations.\nPresentation Skills\nPresenting dashboards, reports, and findings in a professional and audience-friendly format.\nStrategic Thinking\nConnecting marketing performance insights with broader business goals and strategy."
+    "text": "Skills\n\n\n\nMarketing & Analytics\nKPI Analysis\nInterpreting marketing performance metrics to support better decisions.\nContent Analysis\nEvaluating engagement, audience behavior, and campaign performance.\nCampaign Optimization\nIdentifying trends, strengths, and opportunities across campaigns.\n\n\n\nTechnical Skills\nR Programming\nData cleaning, visualization, reporting, and basic modeling.\nDashboard Development\nBuilding reports with Quarto, GA4, BigQuery, and Looker Studio.\nData Visualization\nCreating clear visuals for technical and non-technical audiences.\n\n\n\nCommunication\nBusiness Storytelling\nTranslating analysis into understandable recommendations.\nPresentation Skills\nPresenting dashboards, reports, and findings professionally.\nStrategic Thinking\nConnecting marketing insights with broader business goals."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Jeffrey Hsu",
     "section": "Education",
-    "text": "Education\n\nCalifornia State Polytechnic University, Pomona\nMaster of Science in Digital Marketing\nCoursework and projects have focused on digital marketing strategy, marketing analytics, dashboard development, attribution modeling, web analytics, and reproducible reporting."
+    "text": "Education\n\nEducation\n\nCalifornia State Polytechnic University, Pomona\nMaster of Science in Digital Marketing\nCoursework and projects have focused on digital marketing strategy, marketing analytics, dashboard development, attribution modeling, web analytics, and reproducible reporting."
   },
   {
     "objectID": "index.html#professional-direction",
     "href": "index.html#professional-direction",
     "title": "Jeffrey Hsu",
     "section": "Professional Direction",
-    "text": "Professional Direction\nI want to work in a role where I can combine marketing, analytics, and communication to help teams make smarter, data-informed decisions through reporting, dashboards, and strategic analysis."
+    "text": "Professional Direction\n\nI want to work in a role where I can combine marketing, analytics, and communication to help teams make smarter, data-informed decisions through reporting, dashboards, and strategic analysis."
   },
   {
     "objectID": "index.html#explore-my-work",
     "href": "index.html#explore-my-work",
     "title": "Jeffrey Hsu",
     "section": "Explore My Work",
-    "text": "Explore My Work\nUse the navigation menu to explore my digital marketing projects, marketing analytics projects, resume, RevealJS presentations, and website traffic analytics work."
+    "text": "Explore My Work\nUse the navigation menu to explore my Digital Marketing, Marketing Analytics, Resume, Presentation, and Website Traffic Analytics pages."
   }
 ]
