@@ -93,9 +93,65 @@
   {
     "objectID": "marketing-analytics.html",
     "href": "marketing-analytics.html",
-    "title": "",
+    "title": "Marketing Analytics",
     "section": "",
-    "text": "Code"
+    "text": "This page highlights applied analytics projects focused on marketing performance, consumer behavior, predictive modeling, customer retention, and data-driven decision-making. These projects show how I use analytics to turn raw data into business recommendations."
+  },
+  {
+    "objectID": "marketing-analytics.html#odi-grips-instagram-engagement-analysis",
+    "href": "marketing-analytics.html#odi-grips-instagram-engagement-analysis",
+    "title": "Marketing Analytics",
+    "section": "ODI Grips Instagram Engagement Analysis",
+    "text": "ODI Grips Instagram Engagement Analysis\nThis project analyzed Instagram content performance for ODI Grips by comparing caption themes, engagement rate, posting share, and total engagement contribution.\n\nWhat I Did\n\nCategorized Instagram posts into content themes\nCompared engagement rate across caption and content categories\nBuilt a performance matrix to show both efficiency and scale\nIdentified which content types created the strongest engagement return\n\n\n\nMarketing Analytics Relevance\nThis project shows how marketing analytics can guide content strategy. Instead of guessing what type of content performs best, the analysis uses engagement data to show which themes are worth prioritizing.\n\n\nKey Insight\nAthlete-focused and event-driven content produced the strongest engagement return, while product-heavy content appeared less efficient compared with its share of total posting volume."
+  },
+  {
+    "objectID": "marketing-analytics.html#featured-visual",
+    "href": "marketing-analytics.html#featured-visual",
+    "title": "Marketing Analytics",
+    "section": "Featured Visual",
+    "text": "Featured Visual"
+  },
+  {
+    "objectID": "marketing-analytics.html#skincare-packaging-research-project",
+    "href": "marketing-analytics.html#skincare-packaging-research-project",
+    "title": "Marketing Analytics",
+    "section": "Skincare Packaging Research Project",
+    "text": "Skincare Packaging Research Project\nThis project studied how cosmetic packaging design affects consumer perceptions of product quality, visual appeal, and brand tier. The study compared luxury, middle-tier, and drugstore packaging styles using survey responses and statistical testing.\n\nWhat I Did\n\nHelped design a randomized Qualtrics survey\nAnalyzed over 100 consumer responses\nUsed ANOVA, MANOVA, chi-square testing, and post-hoc comparisons\nEvaluated how visual packaging cues influenced brand perception\n\n\n\nMarketing Analytics Relevance\nThis project connects survey research with brand strategy. It shows how marketers can use data to understand whether packaging communicates the intended brand position before a customer even tries the product.\n\n\nKey Insight\nPackaging design significantly influenced how consumers judged quality, appeal, and brand tier. Luxury packaging generally performed best on appeal, while some drugstore packaging was perceived as more premium than expected."
+  },
+  {
+    "objectID": "marketing-analytics.html#suggested-visual",
+    "href": "marketing-analytics.html#suggested-visual",
+    "title": "Marketing Analytics",
+    "section": "Suggested Visual",
+    "text": "Suggested Visual\n\n  \n\n\n\n\n\n\n\nNote\n\n\n\nIf you do not have this image yet, use a screenshot of the “Perceived Brand Tier by Stimulus” chart from the skincare report and save it as images/skincare-brand-tier-chart.png."
+  },
+  {
+    "objectID": "marketing-analytics.html#bike-rental-forecasting-project",
+    "href": "marketing-analytics.html#bike-rental-forecasting-project",
+    "title": "Marketing Analytics",
+    "section": "Bike Rental Forecasting Project",
+    "text": "Bike Rental Forecasting Project\nThis project used machine learning to predict bike rental demand based on weather, seasonality, holidays, working days, humidity, windspeed, and temperature.\n\nWhat I Did\n\nCleaned and prepared a tidy bike rental dataset\nBuilt predictive models using Random Forest and Linear Regression\nEvaluated model performance using prediction metrics\nIdentified which variables had the strongest influence on rental demand\n\n\n\nMarketing Analytics Relevance\nPredictive modeling is useful in marketing because it helps businesses forecast customer behavior. This project shows how data can support demand planning, campaign timing, and operational decisions.\n\n\nKey Insight\nTemperature, seasonality, and weather conditions were important predictors of bike rental demand. More comfortable conditions were generally associated with higher rental activity."
+  },
+  {
+    "objectID": "marketing-analytics.html#suggested-visual-1",
+    "href": "marketing-analytics.html#suggested-visual-1",
+    "title": "Marketing Analytics",
+    "section": "Suggested Visual",
+    "text": "Suggested Visual\n\n  \n\n\n\n\n\n\n\nTip\n\n\n\nBest visual for this section: a clean “Top Predictors of Bike Rental Demand” feature importance chart. If you do not have one yet, create one from your Random Forest model or use a polished screenshot from your final report."
+  },
+  {
+    "objectID": "marketing-analytics.html#telco-customer-churn-report",
+    "href": "marketing-analytics.html#telco-customer-churn-report",
+    "title": "Marketing Analytics",
+    "section": "Telco Customer Churn Report",
+    "text": "Telco Customer Churn Report\nThis project analyzed customer churn using binary logistic regression. The goal was to identify which customer characteristics made people more or less likely to leave the company.\n\nWhat I Did\n\nPrepared customer churn data for modeling\nCreated dummy variables for categorical predictors\nBuilt logistic regression models in SPSS\nCompared model accuracy and significant predictors\nInterpreted churn drivers from a business perspective\n\n\n\nMarketing Analytics Relevance\nChurn analysis is one of the most valuable uses of marketing analytics. It helps companies identify at-risk customers, improve retention strategy, and focus marketing efforts on the groups most likely to leave.\n\n\nKey Insight\nCustomers with longer tenure and longer contracts were less likely to churn. Customers with certain internet services, paperless billing, and shorter-term contracts showed higher churn risk."
+  },
+  {
+    "objectID": "marketing-analytics.html#suggested-visual-2",
+    "href": "marketing-analytics.html#suggested-visual-2",
+    "title": "Marketing Analytics",
+    "section": "Suggested Visual",
+    "text": "Suggested Visual"
   },
   {
     "objectID": "index.html",
