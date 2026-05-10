@@ -77,17 +77,13 @@ Packaging design significantly influenced how consumers judged quality, appeal, 
 
 :::
 
-## Suggested Visual
+## Featured Visual
 
 ```{=html}
 <div class="project-card" style="text-align:center;">
   <img src="images/skincare-brand-tier-chart.png" style="max-width:100%; border-radius:14px; box-shadow:0 6px 18px rgba(31,58,95,0.12);" alt="Skincare brand perception chart">
 </div>
 ```
-
-::: {.callout-note}
-If you do not have this image yet, use a screenshot of the “Perceived Brand Tier by Stimulus” chart from the skincare report and save it as `images/skincare-brand-tier-chart.png`.
-:::
 
 # Bike Rental Demand Prediction Model
 
@@ -115,17 +111,13 @@ Temperature, seasonality, and weather conditions were important predictors of bi
 
 :::
 
-## Suggested Visual
+## Featured Visual
 
 ```{=html}
 <div class="project-card" style="text-align:center;">
   <img src="images/bike-rental-feature-importance.png" style="max-width:100%; border-radius:14px; box-shadow:0 6px 18px rgba(31,58,95,0.12);" alt="Bike rental feature importance chart">
 </div>
 ```
-
-::: {.callout-tip}
-Best visual for this section: a clean “Top Predictors of Bike Rental Demand” feature importance chart. If you do not have one yet, create one from your Random Forest model or use a polished screenshot from your final report.
-:::
 
 # Customer Churn Prediction Analysis
 
@@ -154,7 +146,7 @@ Customers with longer tenure and longer contracts were less likely to churn. Cus
 
 :::
 
-## Suggested Visual
+## Featured Visual
 
 ```{=html}
 <div class="project-card" style="text-align:center;">
