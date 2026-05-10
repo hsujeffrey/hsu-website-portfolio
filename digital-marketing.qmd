@@ -1,1 +1,351 @@
+---
+title: "Digital Marketing"
+format:
+  html:
+    theme:
+      - cosmo
+      - theme.scss
+    toc: true
+    toc-depth: 2
+    page-layout: full
+    embed-resources: true
+---
 
+# Digital Marketing Portfolio
+
+::: {.highlight-box}
+This page highlights applied digital marketing projects that combine strategy, analytics, SEO, content creation, campaign optimization, and audience engagement. My work focuses on connecting marketing decisions with measurable performance outcomes through data, storytelling, and digital platforms.
+:::
+
+# ODI Grips Instagram Dashboard
+
+::: {.project-card}
+<span class="section-tag">Instagram Analytics</span>
+
+## ODI Grips Instagram Analytics Dashboard
+
+This project analyzed ODI Grips’ Instagram performance using Quarto dashboards and marketing analytics techniques. The dashboard summarizes engagement trends, media performance, caption strategy effectiveness, and top-performing content across Instagram campaigns.
+
+### What I Did
+
+- Cleaned and structured Instagram performance data using R
+- Built a Quarto dashboard with professional visualizations
+- Analyzed engagement metrics such as likes, comments, reach, and impressions
+- Compared content performance across media types and caption strategies
+- Identified trends that could improve future social media campaigns
+
+### Digital Marketing Relevance
+
+This project shows how social media analytics can support better content planning. Instead of guessing what works, the dashboard turns Instagram performance data into clear insights that can guide future campaign strategy.
+
+### Skills Demonstrated
+
+- Social media analytics
+- Quarto dashboard development
+- KPI reporting
+- Data visualization
+- Instagram engagement analysis
+- Marketing performance storytelling
+
+:::
+
+## Embedded Interactive Dashboard
+
+```{=html}
+<div style="border:1px solid #d9d9d9;
+border-radius:14px;
+overflow:hidden;
+box-shadow:0 4px 14px rgba(0,0,0,0.08);
+margin-top:20px;
+margin-bottom:30px;">
+
+<iframe 
+src="projects/odi-dashboard/index.html"
+width="100%"
+height="850px"
+frameborder="0">
+</iframe>
+
+</div>
+```
+
+# ODI Grips Shiny Application
+
+::: {.project-card}
+<span class="section-tag">Interactive Analytics</span>
+
+## ODI Grips Shiny Application
+
+This project involved creating a Shiny application that allowed users to interactively explore Instagram marketing performance data through filters, charts, and visual reports.
+
+### What I Did
+
+- Built an interactive Shiny app connected to marketing performance data
+- Added dynamic filters and user controls
+- Created responsive charts and visual summaries
+- Organized marketing KPIs into an easy-to-use interface
+
+### Digital Marketing Relevance
+
+Modern digital marketing relies on real-time reporting and interactive analytics. This project demonstrates how marketers can create tools that help teams quickly explore campaign performance without manually sorting through spreadsheets.
+
+### Skills Demonstrated
+
+- Shiny application development
+- Interactive dashboards
+- Marketing analytics
+- Data storytelling
+- User-focused reporting
+
+### Project Link
+
+[View ODI Grips Shiny App](https://50kzbk-jeffrey-hsu.shinyapps.io/shiny_app/)
+
+:::
+
+# TRI Off-Page SEO Strategy
+
+::: {.project-card}
+<span class="section-tag">SEO Strategy</span>
+
+## TRI Off-Page SEO Strategy
+
+For this project, my team developed an off-page SEO strategy for the Trauma Resource Institute, a nonprofit organization focused on trauma-informed care. The project analyzed backlinks, competitor SEO performance, brand consistency, and guest posting opportunities.
+
+### My Role
+
+I focused primarily on backlink strategy and competitive SEO research.
+
+### Key Contributions
+
+- Analyzed TRI’s backlink profile
+- Compared competitors’ referral domains and authority
+- Identified toxic backlink risks
+- Recommended guest posting and outreach opportunities
+- Connected SEO recommendations to long-term organic visibility
+
+### Key Findings
+
+- TRI had thousands of backlinks, but backlink quality varied
+- Competitors had stronger backlink diversity and authority
+- Partnership outreach could improve TRI’s search visibility
+- Guest posting could help TRI earn more relevant referral traffic
+
+### Digital Marketing Relevance
+
+SEO is one of the most important long-term growth strategies in digital marketing. This project shows how backlink quality, content partnerships, keyword strategy, and domain authority can influence organic traffic.
+
+### Skills Demonstrated
+
+- SEO auditing
+- SEMrush and Moz analysis
+- Competitive research
+- Backlink strategy
+- Technical SEO
+- Digital brand strategy
+
+:::
+
+# Instagram Marketing Workshop
+
+::: {.project-card}
+<span class="section-tag">Workshop Presentation</span>
+
+## Instagram Marketing Workshop
+
+I hosted and presented a digital marketing workshop through the Center for Customer Insights and Digital Marketing at Cal Poly Pomona. The workshop focused on Instagram marketing strategy, audience engagement, hashtag usage, content planning, and marketing analytics.
+
+### Workshop Topics
+
+- Building an Instagram marketing strategy
+- Understanding Instagram engagement
+- Increasing audience interaction
+- Using hashtags effectively
+- Converting viewers into customers
+- Measuring campaign performance with analytics tools
+
+### Digital Marketing Relevance
+
+This workshop demonstrates both marketing strategy knowledge and communication skills. A strong digital marketer needs to explain strategy clearly, especially to audiences that may not have advanced marketing experience.
+
+### Skills Demonstrated
+
+- Public speaking
+- Social media strategy
+- Audience engagement
+- Marketing education
+- Presentation development
+- Digital communication
+
+:::
+
+## Workshop Video
+
+```{=html}
+<div style="display:flex; justify-content:center; margin-top:20px; margin-bottom:30px;">
+<iframe 
+width="900" 
+height="500" 
+src="https://www.youtube.com/embed/gtleR5ONIog?si=skuOeTkH04DXsUEd" 
+title="YouTube video player" 
+frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" 
+allowfullscreen>
+</iframe>
+</div>
+```
+
+# Social Media Campaign Development: Los Angeles Police Protective League
+
+::: {.project-card}
+<span class="section-tag">Social Media Campaign</span>
+
+## Public Safety Awareness Campaign
+
+As part of my work with the **Los Angeles Police Protective League**, I help create and publish social media content that communicates public safety issues, law enforcement updates, and community awareness messages.
+
+This campaign focused on a man who faced sentencing after assaulting a federal officer during a protest. The purpose of the post was to communicate a clear public safety message: people can disagree politically, protest, and express frustration, but violence against law enforcement officers carries serious legal consequences.
+
+### What I Did
+
+**Content Strategy**  
+Developed a timely post around a current public safety issue to increase awareness and audience engagement.
+
+**Message Framing**  
+Helped frame the post in a way that was direct, informative, and focused on legal consequences rather than political opinion.
+
+**Platform Execution**  
+Published the content for Instagram, where visual impact, headline clarity, and caption structure are important for audience attention.
+
+**Audience Engagement**  
+The post generated strong engagement, including more than 1,000 likes and active comment discussion.
+
+### Why We Posted It
+
+The post was created to remind the public that federal law applies to everyone. Protest activity does not exempt someone from consequences if they assault an ICE agent, federal officer, or any other law enforcement officer.
+
+The broader message was simple: people can disagree with an agency, law enforcement, or government action, but physically attacking officers can lead to prosecution and prison time.
+
+### Digital Marketing Relevance
+
+This project shows how social media can be used for public awareness, issue-based communication, and audience education. It also demonstrates the importance of timing, visual design, caption writing, and message clarity when posting about sensitive public safety issues.
+
+### Skills Demonstrated
+
+- Social media content strategy
+- Public safety communication
+- Instagram caption writing
+- Audience engagement analysis
+- Timely content publishing
+- Message framing for sensitive topics
+
+:::
+
+## Embedded Instagram Post
+
+```{=html}
+<div style="display:flex; justify-content:center; margin-top:20px; margin-bottom:30px;">
+  <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DWXOjhbkgNL/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:14px; box-shadow:0 4px 14px rgba(0,0,0,0.12); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%;">
+  </blockquote>
+  <script async src="//www.instagram.com/embed.js"></script>
+</div>
+```
+
+# Digital Marketing Implementations Lead
+
+::: {.project-card}
+<span class="section-tag">Digital Marketing Leadership</span>
+
+## Center for Customer Insights and Digital Marketing
+
+I served as the **Digital Marketing Implementations Lead** at the **Center for Customer Insights and Digital Marketing at Cal Poly Pomona**. In this role, I supported digital marketing campaigns, workshops, email marketing efforts, website updates, and performance tracking.
+
+This experience helped me move beyond classroom theory and apply digital marketing tools in a real organizational setting.
+
+### What I Did
+
+**Campaign Management**  
+Managed social media and email marketing campaigns for workshops, events, and research-related promotions.
+
+**Email Marketing**  
+Helped improve email campaign performance by supporting A/B testing, list targeting, and message optimization.
+
+**HubSpot Analytics**  
+Used HubSpot analytics to evaluate email performance, including open rates, click-through rates, bounce rates, and audience engagement.
+
+**Website Support**  
+Assisted with Cascade CMS website structure updates and content implementation tasks.
+
+**Workshop Promotion**  
+Helped promote digital marketing workshops and research seminars through email and social media campaigns.
+
+### Results and Impact
+
+- Email open rates reached approximately **33%**
+- Click-through rates reached approximately **4.2%**
+- Bounce rates decreased by about **14%**
+- Workshop registrations increased through campaign promotion
+- Social media KPIs improved over a one-year period
+
+### Digital Marketing Relevance
+
+This role helped me build experience in real-world digital marketing implementation. I worked with email campaigns, social media promotion, audience targeting, website updates, and marketing analytics. More importantly, I learned how digital marketing decisions are connected to performance metrics.
+
+### Skills Demonstrated
+
+- Email marketing
+- HubSpot analytics
+- Campaign implementation
+- Social media promotion
+- Marketing performance tracking
+- Website content management
+- Digital marketing operations
+
+:::
+
+# Digital Marketing Skills Developed
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+::: {.project-card}
+<span class="section-tag">Marketing Skills</span>
+
+- Social media strategy
+- SEO analysis
+- Content marketing
+- Audience engagement
+- Email marketing
+- Campaign optimization
+- Brand communication
+
+:::
+
+:::
+
+::: {.column width="50%"}
+
+::: {.project-card}
+<span class="section-tag">Technical Skills</span>
+
+- R programming
+- Quarto dashboards
+- Shiny applications
+- Data visualization
+- Google Analytics
+- HubSpot analytics
+- Reporting automation
+
+:::
+
+:::
+
+:::
+
+# Professional Growth Reflection
+
+::: {.highlight-box}
+Through these projects and experiences, I developed a stronger understanding of how digital marketing combines creativity, analytics, communication, and strategy. My work has focused on turning marketing data into actionable business insights while also creating audience-centered content that drives engagement and awareness.
+:::
