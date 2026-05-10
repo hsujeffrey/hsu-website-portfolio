@@ -21,8 +21,12 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - theme.scss
     toc: true
     toc-depth: 3
     toc-expand: true
     embed-resources: true
+    code-fold: true
+    code-tools: true
