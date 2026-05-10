@@ -1,0 +1,118 @@
+/*-- scss:defaults --*/
+
+$primary: #1F3A5F;
+$secondary: #0F766E;
+$success: #2F855A;
+$info: #2563EB;
+$warning: #C99700;
+$danger: #B91C1C;
+
+$body-bg: #F7F9FC;
+$body-color: #1F2937;
+$link-color: #0F766E;
+
+$font-family-sans-serif: "Inter", "Segoe UI", Arial, sans-serif;
+$headings-font-weight: 700;
+
+/*-- scss:rules --*/
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #E5E7EB;
+  box-shadow: 0 2px 10px rgba(31, 58, 95, 0.06);
+}
+
+.navbar-title {
+  font-weight: 700;
+  color: #1F3A5F;
+}
+
+.navbar-nav .nav-link {
+  color: #334155;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0F766E;
+}
+
+h1 {
+  color: #1F3A5F;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  color: #0F766E;
+  border-bottom: 2px solid #D7E8E5;
+  padding-bottom: 0.35rem;
+  margin-top: 2.2rem;
+}
+
+h3 {
+  color: #1F3A5F;
+  margin-top: 1.6rem;
+}
+
+h4 {
+  color: #475569;
+}
+
+p {
+  line-height: 1.65;
+}
+
+a {
+  font-weight: 600;
+}
+
+.callout {
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(31, 58, 95, 0.06);
+}
+
+.quarto-about-jolla .about-image {
+  box-shadow: 0 8px 24px rgba(31, 58, 95, 0.16);
+}
+
+.quarto-about-jolla h1 {
+  color: #1F3A5F;
+}
+
+.btn, .btn-primary {
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.card, .project-card {
+  background: #ffffff;
+  border: 1px solid #E5E7EB;
+  border-radius: 16px;
+  padding: 1.25rem;
+  box-shadow: 0 6px 18px rgba(31, 58, 95, 0.07);
+  margin-bottom: 1.25rem;
+}
+
+.section-tag {
+  display: inline-block;
+  background: #E6F4F1;
+  color: #0F766E;
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.highlight-box {
+  background: #ffffff;
+  border-left: 5px solid #0F766E;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(31, 58, 95, 0.06);
+  margin: 1.25rem 0;
+}
+
+iframe {
+  border-radius: 14px;
+}
