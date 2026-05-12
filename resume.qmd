@@ -15,7 +15,7 @@ format:
 ::: {.highlight-box}
 ## Jeffrey Hsu
 
-Digital Marketing | Marketing Analytics | Data Storytelling
+Digital Marketing | Marketing Analytics | Data Storytelling  
 
 Alhambra, California  
 hsujeffrey3@gmail.com  
@@ -24,175 +24,91 @@ hsujeffrey3@gmail.com
 
 ## Download Resume
 
-<div style="margin-top:20px; margin-bottom:35px;">
-
-<a href="Jeffrey Updated Resume Aug 2023.pdf" target="_blank"
-style="
-background-color:#0f766e;
-color:white;
-padding:14px 24px;
-border-radius:10px;
-text-decoration:none;
-font-weight:600;
-box-shadow:0 4px 10px rgba(0,0,0,0.12);">
-Download PDF Resume
-</a>
-
-</div>
+[Download PDF Resume](Jeffrey%20Updated%20Resume%20Aug%202023.pdf){.btn .btn-primary target="_blank"}
 
 # Professional Summary
 
 ::: {.project-card}
-
 Marketing and analytics professional with experience in digital strategy, campaign management, dashboard reporting, SEO, social media analytics, and audience engagement. Experienced in connecting marketing decisions with performance metrics through analytics platforms, dashboards, content strategy, and reporting tools.
-
 :::
 
 # Education
 
 ::: {.project-card}
-
 ## California State Polytechnic University, Pomona
 
 **Master of Science in Digital Marketing**
 
-Focus areas include:
-
-- Marketing analytics
-- Dashboard reporting
-- Attribution analysis
-- SEO and paid media
-- Data storytelling
-- Website analytics
-
+Focus areas include marketing analytics, dashboard reporting, attribution analysis, SEO, paid media, data storytelling, and website analytics.
 :::
 
 # Professional Experience
 
 ## Marketing & Social Media Coordinator | UI/UX Lead  
-### Los Angeles Police Protective League (LAPPL)
+### Los Angeles Police Protective League
 
 ::: {.project-card}
-
-**May 2022 – Present**
-
-### Key Contributions
+**May 2022 to Present**
 
 - Increased Instagram reach by 24%, visits by 13%, and generated over 1,700 new followers
 - Increased Facebook reach by 27.9% and generated over 1,200 new page likes
 - Increased Twitter impressions by 32% through content optimization
 - Redesigned company websites using WordPress, Drupal, HTML, and CSS
-- Improved UX performance and increased member sign-ups by over 35%
-- Increased email conversion rates by 20% through redesign and segmentation improvements
-- Helped manage communication campaigns across a 15,000+ member database
+- Increased member sign-ups by over 35%
+- Increased email conversion rates by 20%
 - Launched and branded a company podcast that exceeded 1,000 downloads within one month
-- Managed marketing materials, motion graphics, and digital branding assets
 - Helped generate over $79,000 in ticket sales for a company course subsidiary
-
-### Skills Used
-
-- Social media strategy
-- UI/UX design
-- WordPress & Drupal
-- Email marketing
-- Audience analytics
-- Content strategy
-- Brand development
-
 :::
 
 ## Digital Marketing Lead  
 ### Center for Customer Insights & Digital Marketing
 
 ::: {.project-card}
+**July 2021 to May 2022**
 
-**July 2021 – May 2022**
-
-### Key Contributions
-
-- Managed a team supporting digital marketing campaigns and workshop promotions
+- Managed digital marketing campaigns and workshop promotions
 - Improved email open rates to 33% and click-through rates to 4.2%
-- Reduced bounce rate from 35% to 14% through A/B testing and optimization
-- Launched promotional campaigns for workshops and research seminars
-- Increased registrations and audience engagement through email and social campaigns
+- Reduced bounce rate from 35% to 14%
 - Presented an Instagram Marketing workshop to marketing professionals
-- Helped improve social media KPIs across audience growth and engagement metrics
-
-### Skills Used
-
-- HubSpot analytics
-- Email marketing
-- A/B testing
-- Campaign optimization
-- Social media analytics
-- Workshop promotion
-
+- Helped improve social media KPIs across audience growth and engagement
 :::
 
 ## Head of Marketing  
 ### Global Impex USA
 
 ::: {.project-card}
-
-**December 2020 – June 2021**
-
-### Key Contributions
+**December 2020 to June 2021**
 
 - Led marketing operations across e-commerce, design, and social media
 - Managed influencer and athlete product launches
 - Generated over $40,000 in annual revenue through digital campaigns
 - Improved website traffic and reduced cart abandonment rates
-- Built investor and client pitch decks
 - Supported SEO and paid advertising campaigns
-
-### Skills Used
-
-- Paid social advertising
-- E-commerce marketing
-- SEO
-- Influencer marketing
-- Conversion optimization
-- Brand strategy
-
 :::
 
 ## Digital Marketing Intern  
 ### marketANDgrow
 
 ::: {.project-card}
-
-**November 2020 – March 2021**
-
-### Key Contributions
+**November 2020 to March 2021**
 
 - Produced weekly marketing podcast content
 - Increased Instagram engagement by over 200%
-- Helped improve customer engagement through marketing automation
 - Wrote SEO-friendly blog posts and digital content
 - Analyzed competitor performance and digital trends
-
-### Skills Used
-
-- Content marketing
-- Podcast marketing
-- SEO writing
-- Social media analytics
-- Marketing automation
-
 :::
 
-# Technical Skills
+# Skills
 
 ::: {.columns}
 
 ::: {.column width="50%"}
 
 ::: {.project-card}
-
-## Marketing & Analytics
+<span class="section-tag">Marketing Skills</span>
 
 - SEO
-- CRO & A/B Testing
+- CRO and A/B Testing
 - Email Marketing
 - Social Media Marketing
 - Paid Social Advertising
@@ -200,7 +116,6 @@ Focus areas include:
 - KPI Reporting
 - Brand Positioning
 - UI/UX Design
-
 :::
 
 :::
@@ -208,14 +123,12 @@ Focus areas include:
 ::: {.column width="50%"}
 
 ::: {.project-card}
+<span class="section-tag">Tools & Platforms</span>
 
-## Platforms & Software
-
-- R & Quarto
-- GA4 & BigQuery
+- R and Quarto
+- GA4 and BigQuery
 - HubSpot
 - Constant Contact
-- MailChimp
 - WordPress
 - Shopify
 - Squarespace
@@ -223,21 +136,8 @@ Focus areas include:
 - Adobe Photoshop
 - Premiere Pro
 - Canva
-
 :::
 
 :::
-
-:::
-
-# Professional Strengths
-
-::: {.project-card}
-
-- Strong communication and presentation skills
-- Ability to explain technical findings to non-technical audiences
-- Experience connecting marketing strategy with performance analytics
-- Strong visual storytelling and dashboard reporting skills
-- Experience working in fast-paced marketing environments
 
 :::
