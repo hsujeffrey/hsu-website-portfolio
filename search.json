@@ -70,6 +70,62 @@
     "text": "Center for Customer Insights and Digital Marketing\nI served as the Digital Marketing Implementations Lead at the Center for Customer Insights and Digital Marketing at Cal Poly Pomona. In this role, I supported digital marketing campaigns, workshops, email marketing efforts, website updates, and performance tracking.\nThis experience helped me move beyond classroom theory and apply digital marketing tools in a real organizational setting.\n\nWhat I Did\nCampaign Management\nManaged social media and email marketing campaigns for workshops, events, and research-related promotions.\nEmail Marketing\nHelped improve email campaign performance by supporting A/B testing, list targeting, and message optimization.\nHubSpot Analytics\nUsed HubSpot analytics to evaluate email performance, including open rates, click-through rates, bounce rates, and audience engagement.\nWebsite Support\nAssisted with Cascade CMS website structure updates and content implementation tasks.\nWorkshop Promotion\nHelped promote digital marketing workshops and research seminars through email and social media campaigns.\n\n\nResults and Impact\n\nEmail open rates reached approximately 33%\nClick-through rates reached approximately 4.2%\nBounce rates decreased by about 14%\nWorkshop registrations increased through campaign promotion\nSocial media KPIs improved over a one-year period\n\n\n\nDigital Marketing Relevance\nThis role helped me build experience in real-world digital marketing implementation. I worked with email campaigns, social media promotion, audience targeting, website updates, and marketing analytics. More importantly, I learned how digital marketing decisions are connected to performance metrics.\n\n\nSkills Demonstrated\n\nEmail marketing\nHubSpot analytics\nCampaign implementation\nSocial media promotion\nMarketing performance tracking\nWebsite content management\nDigital marketing operations"
   },
   {
+    "objectID": "website-traffic-analytics.html",
+    "href": "website-traffic-analytics.html",
+    "title": "Website Traffic Analytics",
+    "section": "",
+    "text": "This page demonstrates how I would analyze portfolio website performance using a GA4-style dashboard. Since this is a student portfolio website, the traffic numbers are intentionally realistic and low-volume rather than exaggerated."
+  },
+  {
+    "objectID": "website-traffic-analytics.html#website-analytics-dashboard",
+    "href": "website-traffic-analytics.html#website-analytics-dashboard",
+    "title": "Website Traffic Analytics",
+    "section": "Website Analytics Dashboard",
+    "text": "Website Analytics Dashboard"
+  },
+  {
+    "objectID": "website-traffic-analytics.html#traffic-acquisition",
+    "href": "website-traffic-analytics.html#traffic-acquisition",
+    "title": "Website Traffic Analytics",
+    "section": "Traffic Acquisition",
+    "text": "Traffic Acquisition\nThe traffic source chart shows that most users came from LinkedIn, Direct, and Organic Search.\n\nInterpretation\n\nLinkedIn was the largest traffic source at about 33.8%\nDirect traffic followed closely at about 31.9%\nOrganic Search accounted for about 25.5%\nReferral traffic was smaller at about 8.8%\n\n\n\nMarketing Analytics Relevance\nThis matters because traffic source analysis helps identify which channels are actually bringing users to the website. For a portfolio site, LinkedIn and direct traffic are especially important because they suggest visitors may be coming from professional networking or resume-related activity."
+  },
+  {
+    "objectID": "website-traffic-analytics.html#engagement-trend",
+    "href": "website-traffic-analytics.html#engagement-trend",
+    "title": "Website Traffic Analytics",
+    "section": "Engagement Trend",
+    "text": "Engagement Trend\nThe sessions-over-time chart shows a gradual upward trend across the reporting period.\n\nInterpretation\nSessions increased from the beginning of the period to the end, suggesting that the site was gaining more visibility over time. The growth is not huge, but for a student portfolio website, a steady increase is more realistic and useful than inflated traffic numbers.\n\n\nMarketing Analytics Relevance\nTrend analysis helps marketers understand whether visibility is improving, declining, or staying flat. Even with low traffic, this type of analysis is useful because it shows whether promotional activity, LinkedIn sharing, or resume views are helping drive more visits."
+  },
+  {
+    "objectID": "website-traffic-analytics.html#user-device-behavior",
+    "href": "website-traffic-analytics.html#user-device-behavior",
+    "title": "Website Traffic Analytics",
+    "section": "User Device Behavior",
+    "text": "User Device Behavior\nThe device breakdown shows that most users accessed the site through mobile, followed by desktop, with only a small amount of tablet traffic.\n\nInterpretation\n\nMobile: approximately 118 users\nDesktop: approximately 89 users\nTablet: approximately 14 users\n\n\n\nMarketing Analytics Relevance\nThis reinforces the need for a mobile-friendly portfolio. If most visitors are viewing the site on mobile, then page layout, image sizing, navigation, and load speed matter even more."
+  },
+  {
+    "objectID": "website-traffic-analytics.html#what-is-working",
+    "href": "website-traffic-analytics.html#what-is-working",
+    "title": "Website Traffic Analytics",
+    "section": "What Is Working",
+    "text": "What Is Working\n\nLinkedIn is the strongest traffic source\nDirect traffic suggests some brand/name recognition\nSessions increased over time\nEngagement rate is strong for a portfolio site\nMobile traffic confirms the importance of responsive design"
+  },
+  {
+    "objectID": "website-traffic-analytics.html#what-can-improve",
+    "href": "website-traffic-analytics.html#what-can-improve",
+    "title": "Website Traffic Analytics",
+    "section": "What Can Improve",
+    "text": "What Can Improve\n\nReferral traffic is still low\nOrganic search can grow with stronger SEO\nProject pages should include better keywords\nMore internal links can improve navigation\nResume and project pages should be optimized for recruiters"
+  },
+  {
+    "objectID": "website-traffic-analytics.html#optimization-plan",
+    "href": "website-traffic-analytics.html#optimization-plan",
+    "title": "Website Traffic Analytics",
+    "section": "Optimization Plan",
+    "text": "Optimization Plan\n\n1. Improve SEO Readiness\nAdd clearer page titles, project descriptions, and keyword-rich headings so search engines can better understand the portfolio content.\n\n\n2. Promote Through LinkedIn\nSince LinkedIn appears to be the strongest source, future updates should be shared through LinkedIn posts, resume links, and profile features.\n\n\n3. Improve Mobile Experience\nBecause mobile is the top device category, every page should be checked on a phone for spacing, readability, image scaling, and navigation.\n\n\n4. Track Key Events\nFuture analytics could track clicks on project links, resume downloads, GitHub visits, and LinkedIn profile clicks.\n\n\n5. Expand Content Over Time\nAdding more project write-ups, screenshots, dashboards, and technical explanations can improve both SEO and recruiter engagement."
+  },
+  {
     "objectID": "presentation.html#digital-marketing-analytics-projects",
     "href": "presentation.html#digital-marketing-analytics-projects",
     "title": "Digital Marketing & Analytics Projects",
