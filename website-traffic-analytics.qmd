@@ -20,6 +20,7 @@ This page demonstrates how I would analyze portfolio website performance using a
 # Dashboard Overview
 
 ::: {.project-card}
+
 <span class="section-tag">GA4-Style Website Analytics</span>
 
 This dashboard summarizes early website traffic for my portfolio site. The goal is to show how I would monitor user behavior, traffic sources, engagement, and device usage in a real marketing analytics workflow.
@@ -33,12 +34,13 @@ This dashboard summarizes early website traffic for my portfolio site. The goal 
 
 :::
 
-## Website Analytics Dashboard
+# Website Analytics Dashboard
 
 ```{=html}
 <div class="project-card" style="text-align:center;">
   <img src="images/website-analytics-dashboard.png" style="max-width:100%; border-radius:14px; box-shadow:0 6px 18px rgba(31,58,95,0.12);" alt="Website traffic analytics dashboard">
 </div>
+```
 
 # Traffic Source Insights
 
@@ -61,8 +63,6 @@ This matters because traffic source analysis helps identify which channels are a
 
 :::
 
----
-
 # Sessions Over Time
 
 ::: {.project-card}
@@ -80,8 +80,6 @@ Sessions increased from the beginning of the period to the end, suggesting that 
 Trend analysis helps marketers understand whether visibility is improving, declining, or staying flat. Even with low traffic, this type of analysis is useful because it shows whether promotional activity, LinkedIn sharing, or resume views are helping drive more visits.
 
 :::
-
----
 
 # Device Breakdown
 
@@ -102,8 +100,6 @@ The device breakdown shows that most users accessed the site through **mobile**,
 This reinforces the need for a mobile-friendly portfolio. If most visitors are viewing the site on mobile, then page layout, image sizing, navigation, and load speed matter even more.
 
 :::
-
----
 
 # Business Takeaways
 
@@ -143,8 +139,6 @@ This reinforces the need for a mobile-friendly portfolio. If most visitors are v
 
 :::
 
----
-
 # Recommended Next Steps
 
 ::: {.project-card}
@@ -173,12 +167,8 @@ Adding more project write-ups, screenshots, dashboards, and technical explanatio
 
 :::
 
----
-
 # Analytics Reflection
 
 ::: {.highlight-box}
-
 The main value of this dashboard is not the amount of traffic. The value is showing that I understand how to measure website performance, interpret user behavior, and turn analytics into practical improvement steps.
-
 :::
