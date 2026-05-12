@@ -77,18 +77,200 @@
     "text": "Code"
   },
   {
-    "objectID": "presentation.html",
-    "href": "presentation.html",
-    "title": "",
-    "section": "",
-    "text": "Code"
+    "objectID": "presentation.html#digital-marketing-analytics-projects",
+    "href": "presentation.html#digital-marketing-analytics-projects",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "Digital Marketing & Analytics Projects",
+    "text": "Digital Marketing & Analytics Projects\nJeffrey Hsu\nMS in Digital Marketing\nCal Poly Pomona\nMarketing Analytics | Digital Strategy | Data Storytelling"
+  },
+  {
+    "objectID": "presentation.html#presentation-overview",
+    "href": "presentation.html#presentation-overview",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "Presentation Overview",
+    "text": "Presentation Overview\n\nWho I am\nDigital marketing projects\nMarketing analytics projects\nKey tools and skills\nCareer direction"
+  },
+  {
+    "objectID": "presentation.html#about-me",
+    "href": "presentation.html#about-me",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "About Me",
+    "text": "About Me\nI am building a career at the intersection of digital marketing, analytics, and business strategy.\nMy goal is to help organizations understand:\n\nWhat marketing efforts are working\nWhat content drives engagement\nWhich channels support conversions\nHow data can guide better decisions"
+  },
+  {
+    "objectID": "presentation.html#portfolio-structure",
+    "href": "presentation.html#portfolio-structure",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "Portfolio Structure",
+    "text": "Portfolio Structure\n\n\nDigital Marketing\n\nSEO strategy\nSocial media campaigns\nEmail marketing\nInstagram workshop\nAudience engagement\n\n\nMarketing Analytics\n\nDashboards\nPredictive modeling\nSurvey analytics\nChurn analysis\nWebsite traffic analytics"
+  },
+  {
+    "objectID": "presentation.html#digital-marketing-project-highlights",
+    "href": "presentation.html#digital-marketing-project-highlights",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "Digital Marketing Project Highlights",
+    "text": "Digital Marketing Project Highlights\nThe digital marketing section shows how I approach content, campaigns, SEO, and audience communication from a strategic perspective.\n\nODI Grips Instagram dashboard\nTRI off-page SEO strategy\nInstagram marketing workshop\nLAPPL social media campaign\nDigital marketing implementation work"
+  },
+  {
+    "objectID": "presentation.html#odi-grips-instagram-dashboard",
+    "href": "presentation.html#odi-grips-instagram-dashboard",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "ODI Grips Instagram Dashboard",
+    "text": "ODI Grips Instagram Dashboard\n\n\nProject Focus\nI analyzed Instagram performance data to understand which posts, captions, and content types created the strongest engagement.\nSkills Used\n\nSocial media analytics\nQuarto dashboarding\nKPI reporting\nData visualization"
+  },
+  {
+    "objectID": "presentation.html#tri-off-page-seo-strategy",
+    "href": "presentation.html#tri-off-page-seo-strategy",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "TRI Off-Page SEO Strategy",
+    "text": "TRI Off-Page SEO Strategy\nBusiness Problem\nTRI needed stronger organic search visibility and better backlink authority.\nWhat I Analyzed\n\nBacklink profile quality\nCompetitor SEO performance\nToxic backlink risks\nGuest posting opportunities\nPartnership outreach strategy\n\nBusiness Value\nSEO strategy helps increase long-term organic traffic without relying only on paid media."
+  },
+  {
+    "objectID": "presentation.html#instagram-marketing-workshop",
+    "href": "presentation.html#instagram-marketing-workshop",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "Instagram Marketing Workshop",
+    "text": "Instagram Marketing Workshop\nProject Focus\nI hosted a workshop on Instagram marketing strategy through the Center for Customer Insights and Digital Marketing.\nTopics Covered\n\nInstagram strategy\nAudience engagement\nHashtag usage\nContent planning\nTurning engagement into customers\nMeasuring performance with analytics\n\nWatch Workshop on YouTube"
+  },
+  {
+    "objectID": "presentation.html#lappl-social-media-campaign",
+    "href": "presentation.html#lappl-social-media-campaign",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "LAPPL Social Media Campaign",
+    "text": "LAPPL Social Media Campaign\nProject Focus\nI helped create and publish public safety content for the Los Angeles Police Protective League.\nDigital Marketing Relevance\nThis project shows how social media can be used for:\n\nPublic awareness\nMessage framing\nTimely content publishing\nAudience engagement\nSensitive issue communication"
+  },
+  {
+    "objectID": "presentation.html#marketing-analytics-project-highlights",
+    "href": "presentation.html#marketing-analytics-project-highlights",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "Marketing Analytics Project Highlights",
+    "text": "Marketing Analytics Project Highlights\nThe marketing analytics section shows how I use data to solve business problems and support marketing decisions.\n\nODI Grips content performance matrix\nSkincare packaging perception study\nBike rental demand prediction\nTelco customer churn analysis"
+  },
+  {
+    "objectID": "presentation.html#odi-grips-content-performance-matrix",
+    "href": "presentation.html#odi-grips-content-performance-matrix",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "ODI Grips Content Performance Matrix",
+    "text": "ODI Grips Content Performance Matrix\n\nKey Insight\nAthlete and event content created the strongest engagement return, while product-heavy content underperformed relative to posting volume."
+  },
+  {
+    "objectID": "presentation.html#skincare-packaging-perception-study",
+    "href": "presentation.html#skincare-packaging-perception-study",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "Skincare Packaging Perception Study",
+    "text": "Skincare Packaging Perception Study\n\nKey Insight\nPackaging design influenced perceived quality, visual appeal, and luxury perception. Drugstore packaging scored surprisingly close to luxury packaging in perceived quality."
+  },
+  {
+    "objectID": "presentation.html#bike-rental-demand-prediction",
+    "href": "presentation.html#bike-rental-demand-prediction",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "Bike Rental Demand Prediction",
+    "text": "Bike Rental Demand Prediction\n\nKey Insight\nTemperature, season, humidity, and weather conditions were major drivers of bike rental demand."
+  },
+  {
+    "objectID": "presentation.html#telco-customer-churn-analysis",
+    "href": "presentation.html#telco-customer-churn-analysis",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "Telco Customer Churn Analysis",
+    "text": "Telco Customer Churn Analysis\n\nKey Insight\nContract type, internet service, senior citizen status, and tenure were important predictors of customer churn."
+  },
+  {
+    "objectID": "presentation.html#tools-and-platforms",
+    "href": "presentation.html#tools-and-platforms",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "Tools and Platforms",
+    "text": "Tools and Platforms\n\n\nAnalytics Tools\n\nR\nQuarto\nSPSS\nBigQuery\nGA4\nLooker Studio\n\n\nMarketing Tools\n\nHubSpot\nConstant Contact\nWordPress\nDrupal\nCanva\nAdobe Photoshop"
+  },
+  {
+    "objectID": "presentation.html#what-these-projects-show",
+    "href": "presentation.html#what-these-projects-show",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "What These Projects Show",
+    "text": "What These Projects Show\n\nI can analyze marketing data\nI can build dashboards and reports\nI can explain insights clearly\nI can connect marketing strategy with business decisions\nI can present technical work to non-technical audiences"
+  },
+  {
+    "objectID": "presentation.html#career-direction",
+    "href": "presentation.html#career-direction",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "Career Direction",
+    "text": "Career Direction\nI am interested in roles related to:\n\nMarketing analytics\nDigital strategy\nPerformance marketing\nCampaign reporting\nContent performance analysis\nWebsite traffic analytics"
+  },
+  {
+    "objectID": "presentation.html#closing",
+    "href": "presentation.html#closing",
+    "title": "Digital Marketing & Analytics Projects",
+    "section": "Closing",
+    "text": "Closing\nDigital Marketing + Analytics\nMy strongest value is being able to connect creative marketing execution with data-driven decision-making.\nThank you.\nGitHub\nLinkedIn\n\nClosing note: Keep this simple. Explain that this portfolio is meant to show both marketing creativity and technical analytics ability."
   },
   {
     "objectID": "resume.html",
     "href": "resume.html",
-    "title": "",
+    "title": "Resume",
     "section": "",
-    "text": "Code"
+    "text": "Digital Marketing | Marketing Analytics | Data Storytelling\nAlhambra, California\nhsujeffrey3@gmail.com\nGitHub | LinkedIn\n\n\n\n\n Download PDF Resume"
+  },
+  {
+    "objectID": "resume.html#jeffrey-hsu",
+    "href": "resume.html#jeffrey-hsu",
+    "title": "Resume",
+    "section": "",
+    "text": "Digital Marketing | Marketing Analytics | Data Storytelling\nAlhambra, California\nhsujeffrey3@gmail.com\nGitHub | LinkedIn"
+  },
+  {
+    "objectID": "resume.html#download-resume",
+    "href": "resume.html#download-resume",
+    "title": "Resume",
+    "section": "",
+    "text": "Download PDF Resume"
+  },
+  {
+    "objectID": "resume.html#california-state-polytechnic-university-pomona",
+    "href": "resume.html#california-state-polytechnic-university-pomona",
+    "title": "Resume",
+    "section": "California State Polytechnic University, Pomona",
+    "text": "California State Polytechnic University, Pomona\nMaster of Science in Digital Marketing\nFocus areas include:\n\nMarketing analytics\nDashboard reporting\nAttribution analysis\nSEO and paid media\nData storytelling\nWebsite analytics"
+  },
+  {
+    "objectID": "resume.html#marketing-social-media-coordinator-uiux-lead",
+    "href": "resume.html#marketing-social-media-coordinator-uiux-lead",
+    "title": "Resume",
+    "section": "Marketing & Social Media Coordinator | UI/UX Lead",
+    "text": "Marketing & Social Media Coordinator | UI/UX Lead\n\nLos Angeles Police Protective League (LAPPL)\n\nMay 2022 – Present\n\nKey Contributions\n\nIncreased Instagram reach by 24%, visits by 13%, and generated over 1,700 new followers\nIncreased Facebook reach by 27.9% and generated over 1,200 new page likes\nIncreased Twitter impressions by 32% through content optimization\nRedesigned company websites using WordPress, Drupal, HTML, and CSS\nImproved UX performance and increased member sign-ups by over 35%\nIncreased email conversion rates by 20% through redesign and segmentation improvements\nHelped manage communication campaigns across a 15,000+ member database\nLaunched and branded a company podcast that exceeded 1,000 downloads within one month\nManaged marketing materials, motion graphics, and digital branding assets\nHelped generate over $79,000 in ticket sales for a company course subsidiary\n\n\n\nSkills Used\n\nSocial media strategy\nUI/UX design\nWordPress & Drupal\nEmail marketing\nAudience analytics\nContent strategy\nBrand development"
+  },
+  {
+    "objectID": "resume.html#digital-marketing-lead",
+    "href": "resume.html#digital-marketing-lead",
+    "title": "Resume",
+    "section": "Digital Marketing Lead",
+    "text": "Digital Marketing Lead\n\nCenter for Customer Insights & Digital Marketing\n\nJuly 2021 – May 2022\n\nKey Contributions\n\nManaged a team supporting digital marketing campaigns and workshop promotions\nImproved email open rates to 33% and click-through rates to 4.2%\nReduced bounce rate from 35% to 14% through A/B testing and optimization\nLaunched promotional campaigns for workshops and research seminars\nIncreased registrations and audience engagement through email and social campaigns\nPresented an Instagram Marketing workshop to marketing professionals\nHelped improve social media KPIs across audience growth and engagement metrics\n\n\n\nSkills Used\n\nHubSpot analytics\nEmail marketing\nA/B testing\nCampaign optimization\nSocial media analytics\nWorkshop promotion"
+  },
+  {
+    "objectID": "resume.html#head-of-marketing",
+    "href": "resume.html#head-of-marketing",
+    "title": "Resume",
+    "section": "Head of Marketing",
+    "text": "Head of Marketing\n\nGlobal Impex USA\n\nDecember 2020 – June 2021\n\nKey Contributions\n\nLed marketing operations across e-commerce, design, and social media\nManaged influencer and athlete product launches\nGenerated over $40,000 in annual revenue through digital campaigns\nImproved website traffic and reduced cart abandonment rates\nBuilt investor and client pitch decks\nSupported SEO and paid advertising campaigns\n\n\n\nSkills Used\n\nPaid social advertising\nE-commerce marketing\nSEO\nInfluencer marketing\nConversion optimization\nBrand strategy"
+  },
+  {
+    "objectID": "resume.html#digital-marketing-intern",
+    "href": "resume.html#digital-marketing-intern",
+    "title": "Resume",
+    "section": "Digital Marketing Intern",
+    "text": "Digital Marketing Intern\n\nmarketANDgrow\n\nNovember 2020 – March 2021\n\nKey Contributions\n\nProduced weekly marketing podcast content\nIncreased Instagram engagement by over 200%\nHelped improve customer engagement through marketing automation\nWrote SEO-friendly blog posts and digital content\nAnalyzed competitor performance and digital trends\n\n\n\nSkills Used\n\nContent marketing\nPodcast marketing\nSEO writing\nSocial media analytics\nMarketing automation"
+  },
+  {
+    "objectID": "resume.html#marketing-analytics",
+    "href": "resume.html#marketing-analytics",
+    "title": "Resume",
+    "section": "Marketing & Analytics",
+    "text": "Marketing & Analytics\n\nSEO\nCRO & A/B Testing\nEmail Marketing\nSocial Media Marketing\nPaid Social Advertising\nInfluencer Marketing\nKPI Reporting\nBrand Positioning\nUI/UX Design"
+  },
+  {
+    "objectID": "resume.html#platforms-software",
+    "href": "resume.html#platforms-software",
+    "title": "Resume",
+    "section": "Platforms & Software",
+    "text": "Platforms & Software\n\nR & Quarto\nGA4 & BigQuery\nHubSpot\nConstant Contact\nMailChimp\nWordPress\nShopify\nSquarespace\nDrupal\nAdobe Photoshop\nPremiere Pro\nCanva"
   },
   {
     "objectID": "marketing-analytics.html",
